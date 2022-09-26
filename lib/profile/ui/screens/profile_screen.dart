@@ -48,7 +48,6 @@
 //   void initState() {
 //     _userName.text = context.read<AuthProvider>().authUserModel!.userName;
 //     _bio.text = context.read<AuthProvider>().authUserModel!.userBio;
-
 //     super.initState();
 //   }
 

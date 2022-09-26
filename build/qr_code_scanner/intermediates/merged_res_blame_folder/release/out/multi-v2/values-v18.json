@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/qr_code_scanner/intermediates/incremental/mergeReleaseResources/merged.dir/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/home/falcon_codes/.gradle/caches/transforms-3/1210857067e657a6c7a2a0409b664273/transformed/appcompat-1.4.2/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/qr_code_scanner/intermediates/merged_res/release/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/home/falcon_codes/.gradle/caches/transforms-3/1210857067e657a6c7a2a0409b664273/transformed/appcompat-1.4.2/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

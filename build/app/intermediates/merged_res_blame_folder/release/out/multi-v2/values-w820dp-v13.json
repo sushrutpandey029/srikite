@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/falcon_codes/.gradle/caches/transforms-3/13fa11e88448514f8cc2c084a8d2c7fc/transformed/jetified-flutter_sound_core-9.2.13/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

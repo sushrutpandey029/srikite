@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_res/release/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/b4d3cee18af88fb704fd306b8b06033e/transformed/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_res/release/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/b4d3cee18af88fb704fd306b8b06033e/transformed/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_res/release/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/b4d3cee18af88fb704fd306b8b06033e/transformed/core-1.8.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_res/release/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/b4d3cee18af88fb704fd306b8b06033e/transformed/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_res/release/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/b4d3cee18af88fb704fd306b8b06033e/transformed/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    }
+]

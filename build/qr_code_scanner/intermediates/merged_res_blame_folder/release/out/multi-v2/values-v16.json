@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/qr_code_scanner/intermediates/merged_res/release/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/falcon_codes/.gradle/caches/transforms-3/1210857067e657a6c7a2a0409b664273/transformed/appcompat-1.4.2/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/falcon_codes/.gradle/caches/transforms-3/0a978bfbe40e48483d3de1f6b4133b8d/transformed/core-1.7.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/qr_code_scanner/intermediates/incremental/mergeReleaseResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/falcon_codes/.gradle/caches/transforms-3/1210857067e657a6c7a2a0409b664273/transformed/appcompat-1.4.2/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/falcon_codes/.gradle/caches/transforms-3/0a978bfbe40e48483d3de1f6b4133b8d/transformed/core-1.7.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

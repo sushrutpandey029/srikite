@@ -1,4 +1,5 @@
 import 'dart:developer';
+
 import 'package:dio/dio.dart';
 import 'package:kite/chat/model/chat_model.dart';
 import 'package:kite/chat/model/send_message_model.dart';
@@ -154,6 +155,54 @@ class ChatRepo {
         'user_receiver_number': userReceiverNumber,
         'user_receiver_name': userReceiverName,
         'files': await MultipartFile.fromFile(image, filename: imageName)
+      });
+      Response response = await Dio().post(url,
+          data: formData,
+          options: Options(
+              followRedirects: false,
+              // will not throw errors
+              validateStatus: (status) => true,
+              headers: {'Connection': 'keep-alive'}));
+      print("Response");
+      print(response.data);
+
+      return response.statusCode == 200;
+    } on DioError {
+      rethrow;
+    }
+  }
+
+  Future<bool> sendDoc(
+    String userSenderId,
+    String userSenderRegNo,
+    String userSenderNumber,
+    String userSenderrName,
+    String userReceiverId,
+    String userReceiverRegNo,
+    String userReceiverNumber,
+    String userReceiverName,
+    String file,
+  ) async {
+    String url = '$_chatApi/send_documents_files';
+    print("Image");
+    print(file);
+    // if (audio == "") {
+    //   return false;
+    // }
+    String fileName = file.split('/').last;
+
+    try {
+      FormData formData = FormData.fromMap({
+        // 'firebase_id': user.firebaseId,
+        'user_sender_id': userSenderId,
+        'user_sender_reg_no': userSenderRegNo,
+        'user_sender_number': userReceiverNumber,
+        'user_sender_name': userSenderrName,
+        'user_receiver_id': userReceiverId,
+        'user_receiver_reg_no': userSenderRegNo,
+        'user_receiver_number': userReceiverNumber,
+        'user_receiver_name': userReceiverName,
+        'files': await MultipartFile.fromFile(file, filename: fileName)
       });
       Response response = await Dio().post(url,
           data: formData,

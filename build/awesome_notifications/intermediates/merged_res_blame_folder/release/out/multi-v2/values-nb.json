@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_res/release/values-nb/values-nb.xml",
+            "map": [
+                {
+                    "source": "/home/falcon_codes/.gradle/caches/transforms-3/0a978bfbe40e48483d3de1f6b4133b8d/transformed/core-1.7.0/res/values-nb/values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/incremental/mergeReleaseResources/merged.dir/values-nb/values-nb.xml",
+            "map": [
+                {
+                    "source": "/home/falcon_codes/.gradle/caches/transforms-3/0a978bfbe40e48483d3de1f6b4133b8d/transformed/core-1.7.0/res/values-nb/values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

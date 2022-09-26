@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_open_enter.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/02cfc7d6c62a9aad1b51bae039ffa535/transformed/fragment-1.3.6/res/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_open_exit.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/02cfc7d6c62a9aad1b51bae039ffa535/transformed/fragment-1.3.6/res/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_fade_exit.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/02cfc7d6c62a9aad1b51bae039ffa535/transformed/fragment-1.3.6/res/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_close_exit.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/02cfc7d6c62a9aad1b51bae039ffa535/transformed/fragment-1.3.6/res/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_fade_enter.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/02cfc7d6c62a9aad1b51bae039ffa535/transformed/fragment-1.3.6/res/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_close_enter.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/02cfc7d6c62a9aad1b51bae039ffa535/transformed/fragment-1.3.6/res/animator/fragment_close_enter.xml"
+    }
+]

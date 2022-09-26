@@ -15,12 +15,7 @@ import 'package:flutter_sound/flutter_sound.dart';
 import 'package:kite/chat/ui/widgets/message_tile_widget.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-
-import '../../../shared/constants/color_gradient.dart';
-import '../../../shared/constants/textstyle.dart';
-import '../../../util/custom_navigation.dart';
 import '../../model/send_message_model.dart';
-import 'chat_profile_screen.dart';
 import 'package:file_picker/file_picker.dart';
 
 class ChatScreen extends StatefulWidget {
@@ -152,6 +147,8 @@ class _ChatScreenState extends State<ChatScreen> {
       return chatMessage.imageMessage;
     } else if (chatMessage.audioMessage != '') {
       return chatMessage.audioMessage;
+    } else if (chatMessage.fileMessage != '') {
+      return chatMessage.fileMessage;
     } else {
       return chatMessage.textMasseg;
     }
@@ -162,6 +159,8 @@ class _ChatScreenState extends State<ChatScreen> {
       return 'audio';
     } else if (chatMessage.imageMessage != '') {
       return 'image';
+    } else if (chatMessage.fileMessage != '') {
+      return 'file';
     } else {
       return 'text';
     }
@@ -226,33 +225,30 @@ class _ChatScreenState extends State<ChatScreen> {
                                     final XFile? pickedImage = await _picker
                                         .pickImage(source: ImageSource.gallery);
                                     if (pickedImage != null) {
-                                      // setState(() {
-                                      //   image = File(pickedImage.path);
-                                      // });
                                       AuthUserModel userModel = context
                                           .read<AuthProvider>()
                                           .authUserModel!;
-                                      _chatProvider.sendImage(
-                                          SendChatModel(
-                                            userSenderId: userModel.id,
-                                            userSenderName: userModel.userName,
-                                            userSenderNumber:
-                                                userModel.userPhoneNumber,
-                                            userSenderRegNo:
-                                                userModel.userRegNo,
-                                            userReceiverId:
-                                                value.selectedUser!.userId,
-                                            userReceiverName:
-                                                value.selectedUser!.userName,
-                                            userReceiverRegNo:
-                                                value.selectedUser!.userRegNo,
-                                            userReceiverNumber:
-                                                value.selectedUser!.userPhoneNo,
-                                            textMasseg: _messageController.text,
-                                            imageMessage: pickedImage.path,
-                                            audioMessage: '',
-                                          ),
-                                          context);
+                                      SendChatModel chatModel = SendChatModel(
+                                        userSenderId: userModel.id,
+                                        userSenderName: userModel.userName,
+                                        userSenderNumber:
+                                            userModel.userPhoneNumber,
+                                        userSenderRegNo: userModel.userRegNo,
+                                        userReceiverId:
+                                            value.selectedUser!.userId,
+                                        userReceiverName:
+                                            value.selectedUser!.userName,
+                                        userReceiverRegNo:
+                                            value.selectedUser!.userRegNo,
+                                        userReceiverNumber:
+                                            value.selectedUser!.userPhoneNo,
+                                        textMasseg: _messageController.text,
+                                        imageMessage: pickedImage.path,
+                                        fileMessage: '',
+                                        audioMessage: '',
+                                      );
+                                      await _chatProvider.sendImage(
+                                          chatModel, context);
                                     }
                                   }),
                                   icon: const Icon(Icons.image),
@@ -299,6 +295,34 @@ class _ChatScreenState extends State<ChatScreen> {
                                           .map((path) => File(path!))
                                           .toList();
                                       print(files);
+                                      for (var file in files) {
+                                        AuthUserModel userModel = context
+                                            .read<AuthProvider>()
+                                            .authUserModel!;
+                                        SendChatModel chatModel = SendChatModel(
+                                          userSenderId: userModel.id,
+                                          userSenderName: userModel.userName,
+                                          userSenderNumber:
+                                              userModel.userPhoneNumber,
+                                          userSenderRegNo: userModel.userRegNo,
+                                          userReceiverId:
+                                              value.selectedUser!.userId,
+                                          userReceiverName:
+                                              value.selectedUser!.userName,
+                                          userReceiverRegNo:
+                                              value.selectedUser!.userRegNo,
+                                          userReceiverNumber:
+                                              value.selectedUser!.userPhoneNo,
+                                          textMasseg: _messageController.text,
+                                          imageMessage: '',
+                                          fileMessage: file.path,
+                                          audioMessage: '',
+                                        );
+                                        print(chatModel);
+                                        await _chatProvider.sendDocFile(
+                                            chatModel, context);
+                                        print("sent file - ${file.path}");
+                                      }
                                     } else {
                                       // User canceled the picker
                                     }
@@ -358,7 +382,7 @@ class _ChatScreenState extends State<ChatScreen> {
                                   spacing: 2.5,
                                   alignment: 'right',
                                   animationLoop: 2,
-                                  beatRate: Duration(milliseconds: 1000),
+                                  beatRate: const Duration(milliseconds: 1000),
                                   bars: [
                                     AudioWaveBar(
                                         heightFactor: 0.9,
@@ -412,6 +436,7 @@ class _ChatScreenState extends State<ChatScreen> {
                                             value.selectedUser!.userPhoneNo,
                                         textMasseg: _messageController.text,
                                         imageMessage: '',
+                                        fileMessage: '',
                                         audioMessage: audioFile,
                                       ),
                                       context);
@@ -446,23 +471,22 @@ class _ChatScreenState extends State<ChatScreen> {
                         AuthUserModel userModel =
                             context.read<AuthProvider>().authUserModel!;
 
-                        value.sendMessage(
-                            SendChatModel(
-                              userSenderId: userModel.id,
-                              userSenderName: userModel.userName,
-                              userSenderNumber: userModel.userPhoneNumber,
-                              userSenderRegNo: userModel.userRegNo,
-                              userReceiverId: value.selectedUser!.userId,
-                              userReceiverName: value.selectedUser!.userName,
-                              userReceiverRegNo: value.selectedUser!.userRegNo,
-                              userReceiverNumber:
-                                  value.selectedUser!.userPhoneNo,
-                              textMasseg: _messageController.text,
-                              imageMessage: '',
-                              audioMessage: '',
-                            ),
-                            context);
-
+                        SendChatModel chatModel = SendChatModel(
+                          userSenderId: userModel.id,
+                          userSenderName: userModel.userName,
+                          userSenderNumber: userModel.userPhoneNumber,
+                          userSenderRegNo: userModel.userRegNo,
+                          userReceiverId: value.selectedUser!.userId,
+                          userReceiverName: value.selectedUser!.userName,
+                          userReceiverRegNo: value.selectedUser!.userRegNo,
+                          userReceiverNumber: value.selectedUser!.userPhoneNo,
+                          textMasseg: _messageController.text,
+                          imageMessage: '',
+                          fileMessage: '',
+                          audioMessage: '',
+                        );
+                        print('chatmodel data - {$chatModel}');
+                        value.sendMessage(chatModel, context);
                         _messageController.clear();
                         FocusScope.of(context).unfocus();
                       },

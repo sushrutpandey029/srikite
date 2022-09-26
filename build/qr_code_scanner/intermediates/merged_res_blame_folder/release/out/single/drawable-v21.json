@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/qr_code_scanner/intermediates/merged_res/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/1210857067e657a6c7a2a0409b664273/transformed/appcompat-1.4.2/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/qr_code_scanner/intermediates/merged_res/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/1210857067e657a6c7a2a0409b664273/transformed/appcompat-1.4.2/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/qr_code_scanner/intermediates/merged_res/release/drawable-v21/notification_action_background.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/0a978bfbe40e48483d3de1f6b4133b8d/transformed/core-1.7.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/qr_code_scanner/intermediates/merged_res/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/1210857067e657a6c7a2a0409b664273/transformed/appcompat-1.4.2/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/qr_code_scanner/intermediates/merged_res/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/1210857067e657a6c7a2a0409b664273/transformed/appcompat-1.4.2/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/qr_code_scanner/intermediates/merged_res/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/1210857067e657a6c7a2a0409b664273/transformed/appcompat-1.4.2/res/drawable-v21/abc_list_divider_material.xml"
+    }
+]

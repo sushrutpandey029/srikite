@@ -20,6 +20,7 @@ class ChatProvider extends ChangeNotifier {
   ChatUserModel? selectedUser;
   List<ChatModel> finalChatList = [];
   final MessageHiveRepo _messageHiveRepo = MessageHiveRepo();
+
   // final myBox = Boxes.getAuthHive();
   // AuthHiveModel? authPh = AuthHiveModel()..pNumber = '';
 
@@ -351,6 +352,37 @@ class ChatProvider extends ChangeNotifier {
           chatModel.userReceiverNumber,
           chatModel.userReceiverName,
           chatModel.imageMessage);
+      // _messageHiveRepo
+      //     .addMessages([ChatModel.fromMap(chatModel.toMap())], false);
+      // fetchChatUsersLocal(context);
+      // fetchChatLocal(chatModel.userSenderId, chatModel.userReceiverId);
+      // notifyListeners();
+      // await _chatRepo.sendMessage(chatModel);
+      // notifyListeners();
+      // await fetchChatUsers(context);
+      // await fetchChat(context);
+      // notifyListeners();
+    } on Exception catch (e) {
+      print(
+        Exception(e),
+      );
+    }
+  }
+
+  Future<void> sendDocFile(
+      SendChatModel chatModel, BuildContext context) async {
+    try {
+      await _chatRepo.sendDoc(
+        chatModel.userSenderId,
+        chatModel.userSenderRegNo,
+        chatModel.userSenderNumber,
+        chatModel.userSenderName,
+        chatModel.userReceiverId,
+        chatModel.userReceiverRegNo,
+        chatModel.userReceiverNumber,
+        chatModel.userReceiverName,
+        chatModel.fileMessage,
+      );
       // _messageHiveRepo
       //     .addMessages([ChatModel.fromMap(chatModel.toMap())], false);
       // fetchChatUsersLocal(context);

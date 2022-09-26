@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_res/release/layout/notification_action.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/b4d3cee18af88fb704fd306b8b06033e/transformed/core-1.8.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_res/release/layout/notification_template_icon_group.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/b4d3cee18af88fb704fd306b8b06033e/transformed/core-1.8.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/b4d3cee18af88fb704fd306b8b06033e/transformed/core-1.8.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_res/release/layout/notification_action_tombstone.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/b4d3cee18af88fb704fd306b8b06033e/transformed/core-1.8.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/b4d3cee18af88fb704fd306b8b06033e/transformed/core-1.8.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/b4d3cee18af88fb704fd306b8b06033e/transformed/core-1.8.0/res/layout/custom_dialog.xml"
+    }
+]

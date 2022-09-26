@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/0a978bfbe40e48483d3de1f6b4133b8d/transformed/core-1.7.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/0a978bfbe40e48483d3de1f6b4133b8d/transformed/core-1.7.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/0a978bfbe40e48483d3de1f6b4133b8d/transformed/core-1.7.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/0a978bfbe40e48483d3de1f6b4133b8d/transformed/core-1.7.0/res/drawable/notification_icon_background.xml"
+    }
+]
