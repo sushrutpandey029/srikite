@@ -6,7 +6,6 @@ import 'package:kite/settings/ui/screens/notification_and_sound_screen.dart';
 import 'package:kite/settings/ui/screens/privacy_and_security_screen.dart';
 import 'package:kite/shared/constants/textstyle.dart';
 import 'package:kite/shared/constants/url_constants.dart';
-import 'package:kite/shared/ui/widgets/custom_app_bar.dart';
 import 'package:kite/util/custom_navigation.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
@@ -22,12 +21,19 @@ class SettingPage extends StatefulWidget {
 }
 
 class _SettingPageState extends State<SettingPage> {
+  List languages = [
+    'English',
+    'Hindi',
+    'French',
+    'Spanish',
+    'Arabic',
+  ];
   List titles = <String>[
     'Notification & Sounds',
     'Privacy and Security',
     'Data & Storage',
     'Language',
-    'Help'
+    'Help',
   ];
   List icons = <IconData>[
     Icons.notifications,
@@ -54,7 +60,7 @@ class _SettingPageState extends State<SettingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Settings'),
+        title: const Text('Settings'),
         flexibleSpace: Container(
           decoration: BoxDecoration(gradient: gradient1),
         ),
@@ -95,67 +101,15 @@ class _SettingPageState extends State<SettingPage> {
               }),
             ),
             const Divider(thickness: 3, color: Colors.black),
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < titles.length; i++)
               ListTile(
-                onTap: () {
+                onTap: () async {
                   if (i == 3) {
-                    showModalBottomSheet(
-                        context: context,
-                        shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.vertical(
-                                top: Radius.circular(25.sp))),
-                        builder: (context) => SizedBox(
-                              height: 40.h,
-                              child: Column(
-                                children: [
-                                  Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Text(
-                                      'Languages',
-                                      style: blueText1,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Text(
-                                      'English',
-                                      style: text1,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Text(
-                                      'Hindi',
-                                      style: text1,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Text(
-                                      'French',
-                                      style: text1,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Text(
-                                      'Spanish',
-                                      style: text1,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Text(
-                                      'Arabic',
-                                      style: text1,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ));
-                    return;
+                    await showBottomSheet();
+                  } else if (i == titles.length) {
+                  } else {
+                    customNavigator(context, onTapDestination.elementAt(i));
                   }
-                  customNavigator(context, onTapDestination.elementAt(i));
                 },
                 leading: Icon(
                   icons.elementAt(i),
@@ -166,6 +120,36 @@ class _SettingPageState extends State<SettingPage> {
                   style: boldText1,
                 ),
                 subtitle: i < 3 ? Text(subtitles.elementAt(i)) : null,
+              )
+          ],
+        ),
+      ),
+    );
+  }
+
+  Future showBottomSheet() {
+    return showModalBottomSheet(
+      context: context,
+      shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(top: Radius.circular(25.sp))),
+      builder: (context) => SizedBox(
+        height: 40.h,
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text(
+                'Languages',
+                style: blueText1,
+              ),
+            ),
+            for (int i = 0; i < languages.length; i++)
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  languages[i],
+                  style: text1,
+                ),
               )
           ],
         ),

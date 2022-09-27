@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:kite/shared/constants/textstyle.dart';
-import 'package:kite/shared/ui/widgets/custom_app_bar.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
 import '../../../shared/constants/color_gradient.dart';
@@ -48,7 +47,7 @@ class _NotificationSoundsPageState extends State<NotificationSoundsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Notofication and Sound'),
+        title: const Text('Notification and Sounds'),
         flexibleSpace: Container(
           decoration: BoxDecoration(gradient: gradient1),
         ),

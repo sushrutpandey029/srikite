@@ -1,11 +1,12 @@
 import 'dart:developer';
-
 import 'package:dio/dio.dart';
+import 'package:flutter_emoji/flutter_emoji.dart';
 import 'package:kite/chat/model/chat_model.dart';
 import 'package:kite/chat/model/send_message_model.dart';
 import 'package:kite/shared/constants/url_constants.dart';
 
 class ChatRepo {
+  final parser = EmojiParser();
   final String _chatApi = '$baseUrl/Kiteapi_controller';
 
   Future<List<ChatModel>> fetchChatBySenderId(String senderId) async {
@@ -49,7 +50,7 @@ class ChatRepo {
       String senderId, String receiverId) async {
     List<ChatModel> list = [];
     String url = '$_chatApi/show_msg_by_sr';
-
+    String url2 = '$_chatApi/mems_list';
     try {
       Response response = await Dio()
           .post(url, data: {"sender_id": senderId, "receiver_id": receiverId});
@@ -66,9 +67,15 @@ class ChatRepo {
   }
 
   Future<void> sendMessage(SendChatModel chatModel) async {
-    String url = '$_chatApi/userone_reply_usertwo';
+    String url1 = '$_chatApi/userone_reply_usertwo';
+    String url2 = '$_chatApi/send_mems_msg ';
+    Emoji emojis = parser.getEmoji(chatModel.textMasseg);
+
     try {
-      Response response = await Dio().post(url, data: chatModel.toMap());
+      if (emojis != Emoji.None) {}
+      Response response = await Dio().post(url1, data: chatModel.toMap());
+      log(response.toString());
+      response = await Dio().post(url2, data: chatModel.toMap());
       log(response.toString());
     } on DioError {
       rethrow;
@@ -184,7 +191,6 @@ class ChatRepo {
     String file,
   ) async {
     String url = '$_chatApi/send_documents_files';
-    print("Image");
     print(file);
     // if (audio == "") {
     //   return false;

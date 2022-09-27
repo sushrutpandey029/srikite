@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:audio_wave/audio_wave.dart';
+import 'package:emoji_picker_flutter/emoji_picker_flutter.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -28,6 +29,7 @@ class ChatScreen extends StatefulWidget {
 
 class _ChatScreenState extends State<ChatScreen> {
   final recorder = FlutterSoundRecorder();
+  bool showEmoji = false;
   bool haveText = false;
   bool isAttaching = false;
   bool isRecording = false;
@@ -371,7 +373,11 @@ class _ChatScreenState extends State<ChatScreen> {
                     child: Row(
                       children: [
                         IconButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              setState(() {
+                                showEmoji = !showEmoji;
+                              });
+                            },
                             icon: const Icon(Icons.emoji_emotions_outlined)),
                         SizedBox(
                           width: haveText ? 51.w : 43.w,
@@ -493,10 +499,26 @@ class _ChatScreenState extends State<ChatScreen> {
                       child: const Icon(Icons.send),
                     )
                 ],
-              )
+              ),
+              showEmoji ? Expanded(child: SelectEmoji()) : const SizedBox(),
+              const SizedBox(),
             ],
           );
         }),
+      ),
+    );
+  }
+
+  Widget SelectEmoji() {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: EmojiPicker(
+        textEditingController: _messageController,
+        config: const Config(bgColor: Colors.white, columns: 8),
+        onBackspacePressed: () {},
+        onEmojiSelected: (emoji, category) {
+          print(emoji);
+        },
       ),
     );
   }

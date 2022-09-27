@@ -16,6 +16,7 @@ device_info_plus_linux=/home/falcon_codes/snap/flutter/common/flutter/.pub-cache
 device_info_plus_macos=/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/device_info_plus_macos-3.0.0/
 device_info_plus_web=/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/device_info_plus_web-3.0.0/
 device_info_plus_windows=/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/device_info_plus_windows-4.1.0/
+emoji_picker_flutter=/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/emoji_picker_flutter-1.3.1/
 file_picker=/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/file_picker-5.2.0/
 firebase_auth=/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-3.9.0/
 firebase_auth_web=/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-4.4.1/

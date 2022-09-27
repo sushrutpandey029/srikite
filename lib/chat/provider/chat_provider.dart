@@ -1,5 +1,4 @@
 import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:kite/authentication/model/auth_user_model.dart';
 import 'package:kite/authentication/provider/auth_provider.dart';
@@ -8,7 +7,6 @@ import 'package:kite/chat/model/send_message_model.dart';
 import 'package:kite/database/repository/message_hive_repo.dart';
 import 'package:kite/util/custom_navigation.dart';
 import 'package:provider/provider.dart';
-
 import '../model/chat_model.dart';
 import '../repository/chat_repo.dart';
 import '../ui/screens/chat_screen.dart';

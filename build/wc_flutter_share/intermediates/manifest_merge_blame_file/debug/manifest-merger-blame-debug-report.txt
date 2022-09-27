@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wisecrab.wc_flutter_share" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/wc_flutter_share-0.4.0/android/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="16" />
+7-->/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/wc_flutter_share-0.4.0/android/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/wc_flutter_share-0.4.0/android/src/main/AndroidManifest.xml:5:5-15:19
+10        <provider
+10-->/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/wc_flutter_share-0.4.0/android/src/main/AndroidManifest.xml:6:9-14:20
+11            android:name="com.wisecrab.wc_flutter_share.WcFlutterShareFileProvider"
+11-->/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/wc_flutter_share-0.4.0/android/src/main/AndroidManifest.xml:7:13-55
+12            android:authorities="${applicationId}.fileprovider.github.com/com/wisecrab/wc-flutter-share"
+12-->/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/wc_flutter_share-0.4.0/android/src/main/AndroidManifest.xml:8:13-105
+13            android:exported="false"
+13-->/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/wc_flutter_share-0.4.0/android/src/main/AndroidManifest.xml:9:13-37
+14            android:grantUriPermissions="true" >
+14-->/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/wc_flutter_share-0.4.0/android/src/main/AndroidManifest.xml:10:13-47
+15            <meta-data
+15-->/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/wc_flutter_share-0.4.0/android/src/main/AndroidManifest.xml:11:13-13:69
+16                android:name="android.support.FILE_PROVIDER_PATHS"
+16-->/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/wc_flutter_share-0.4.0/android/src/main/AndroidManifest.xml:12:17-67
+17                android:resource="@xml/wc_flutter_share_filepaths" />
+17-->/home/falcon_codes/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/wc_flutter_share-0.4.0/android/src/main/AndroidManifest.xml:13:17-67
+18        </provider>
+19    </application>
+20
+21</manifest>
