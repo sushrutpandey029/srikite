@@ -117,6 +117,7 @@ MERGED from [:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutte
 MERGED from [:webview_flutter_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/webview_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:permission_handler_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:device_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/device_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:emoji_picker_flutter] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/emoji_picker_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/6ac8fe00318eac3846ce169222ce2b77/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/falcon_codes/.gradle/caches/transforms-3/981e9f56578abd1a82f4cde37f09e724/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -357,6 +358,8 @@ MERGED from [:permission_handler_android] /home/falcon_codes/prathamesh/app_dev/
 MERGED from [:permission_handler_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:device_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/device_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:device_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/device_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:emoji_picker_flutter] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/emoji_picker_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:emoji_picker_flutter] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/emoji_picker_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/6ac8fe00318eac3846ce169222ce2b77/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/6ac8fe00318eac3846ce169222ce2b77/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41

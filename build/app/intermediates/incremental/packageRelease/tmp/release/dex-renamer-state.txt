@@ -1,4 +1,4 @@
-#Mon Sep 26 19:41:38 IST 2022
+#Tue Sep 27 23:49:07 IST 2022
 base.0=/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

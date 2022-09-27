@@ -8604,6 +8604,18 @@ com.example.kite.R$style
 com.example.kite.R$styleable
 com.example.kite.R$xml
 com.example.kite.R
+com.fintasys.emoji_picker_flutter.BuildConfig
+com.fintasys.emoji_picker_flutter.R$attr
+com.fintasys.emoji_picker_flutter.R$color
+com.fintasys.emoji_picker_flutter.R$dimen
+com.fintasys.emoji_picker_flutter.R$drawable
+com.fintasys.emoji_picker_flutter.R$id
+com.fintasys.emoji_picker_flutter.R$integer
+com.fintasys.emoji_picker_flutter.R$layout
+com.fintasys.emoji_picker_flutter.R$string
+com.fintasys.emoji_picker_flutter.R$style
+com.fintasys.emoji_picker_flutter.R$styleable
+com.fintasys.emoji_picker_flutter.R
 com.google.android.datatransport.BuildConfig
 com.google.android.datatransport.Event:
     public static com.google.android.datatransport.Event ofData(int,java.lang.Object)
@@ -29174,9 +29186,7 @@ kotlin.text.StringsKt__StringsKt:
     private static final java.lang.String replaceRange(java.lang.String,int,int,java.lang.CharSequence)
     private static final java.lang.String replaceRange(java.lang.String,kotlin.ranges.IntRange,java.lang.CharSequence)
     private static final java.util.List split(java.lang.CharSequence,kotlin.text.Regex,int)
-    public static final java.util.List split(java.lang.CharSequence,java.lang.String[],boolean,int)
     static synthetic java.util.List split$default(java.lang.CharSequence,kotlin.text.Regex,int,int,java.lang.Object)
-    public static synthetic java.util.List split$default(java.lang.CharSequence,java.lang.String[],boolean,int,int,java.lang.Object)
     private static final kotlin.sequences.Sequence splitToSequence(java.lang.CharSequence,kotlin.text.Regex,int)
     public static final kotlin.sequences.Sequence splitToSequence(java.lang.CharSequence,char[],boolean,int)
     static synthetic kotlin.sequences.Sequence splitToSequence$default(java.lang.CharSequence,kotlin.text.Regex,int,int,java.lang.Object)

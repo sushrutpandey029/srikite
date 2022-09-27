@@ -316,6 +316,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:emoji_picker_flutter::release"
+      jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/emoji_picker_flutter/.transforms/103d937f81acb616e8455e900b147252/transformed/out/jars/classes.jar"
+      resolved="com.fintasys.emoji_picker_flutter:emoji_picker_flutter:unspecified"
+      folder="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/emoji_picker_flutter/.transforms/103d937f81acb616e8455e900b147252/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="io.flutter:flutter_embedding_release:1.0.0-a4ff2c53d84ca78702bc3be6c7ef0788ffca01d3@jar"
       jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/io.flutter/flutter_embedding_release/1.0.0-a4ff2c53d84ca78702bc3be6c7ef0788ffca01d3/769c0e5a37ed904e207570b3598bac2b78108f8a/flutter_embedding_release-1.0.0-a4ff2c53d84ca78702bc3be6c7ef0788ffca01d3.jar"
       resolved="io.flutter:flutter_embedding_release:1.0.0-a4ff2c53d84ca78702bc3be6c7ef0788ffca01d3"/>
