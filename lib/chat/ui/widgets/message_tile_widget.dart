@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kite/chat/ui/widgets/image_view.dart';
 import 'package:kite/chat/ui/widgets/voice_msg.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:kite/shared/constants/url_constants.dart';
@@ -18,11 +19,25 @@ class MessageTileWidget extends StatelessWidget {
   bool isContinue;
   String type;
 
-  Widget showMessage(String type, String message) {
+  Widget showMessage(BuildContext context, String type, String message) {
     print(type);
     print(message);
     if (type == "image") {
-      return Image.network('$imgMsgUrl/$message');
+      return GestureDetector(
+        onTap: () {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => const ImageView()));
+        },
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(14.sp),
+          child: Image.network(
+            '$imgMsgUrl/$message',
+            height: 250,
+            width: double.infinity,
+            fit: BoxFit.cover,
+          ),
+        ),
+      );
       // return Text("Hello");
     } else if (type == "audio") {
       return PlayVoiceMsg(audioMsgUrl: "$audioMsgUrl/$message");
@@ -69,25 +84,31 @@ class MessageTileWidget extends StatelessWidget {
                   ? Colors.lightBlueAccent
                   : const Color.fromARGB(255, 236, 235, 235),
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20.sp)),
+                  borderRadius: BorderRadius.circular(14.sp)),
               child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 4.w, vertical: 1.h),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.end,
-                  children: [
-                    Expanded(
-                      child: showMessage(type, message),
-                    ),
-                    // Text(message, style: TextStyle(fontSize: 16.sp))),
-                    SizedBox(
-                      width: 2.w,
-                    ),
-                    Text(
-                      time,
-                      style: TextStyle(fontSize: 14.sp),
-                    )
-                  ],
-                ),
+                padding: type == "image"
+                    ? const EdgeInsets.all(4)
+                    : EdgeInsets.symmetric(horizontal: 4.w, vertical: 1.h),
+                child: type != "image"
+                    ? Row(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          Expanded(
+                            child: showMessage(context, type, message),
+                          ),
+                          // Text(message, style: TextStyle(fontSize: 16.sp))),
+                          SizedBox(
+                            width: 2.w,
+                          ),
+                          Text(
+                            time,
+                            style: TextStyle(fontSize: 14.sp),
+                          )
+                        ],
+                      )
+                    : Expanded(
+                        child: showMessage(context, type, message),
+                      ),
               ),
             ),
           ),
