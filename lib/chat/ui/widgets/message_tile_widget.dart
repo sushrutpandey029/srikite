@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kite/chat/ui/widgets/play_audio.dart';
+import 'package:kite/chat/ui/widgets/voice_msg.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:kite/shared/constants/url_constants.dart';
 
@@ -20,13 +20,13 @@ class MessageTileWidget extends StatelessWidget {
 
   Widget showMessage(String type, String message) {
     print(type);
+    print(message);
     if (type == "image") {
-      return Image.network('$imgMsgUrl/${message}');
+      return Image.network('$imgMsgUrl/$message');
       // return Text("Hello");
     } else if (type == "audio") {
-      // return PlayAudioFromFile(audioMsgUrl: '$audioMsgUrl/${message}');
-
-      return Text(audioMsgUrl);
+      return PlayVoiceMsg(audioMsgUrl: "$audioMsgUrl/$message");
+      // return PlayAudioFromFile(audioMsgUrl: '$audioMsgUrl/$message');
     } else {
       int length = message.split("\n").length;
       if (length > 10) {

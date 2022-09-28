@@ -44,7 +44,7 @@ class _PlayAudioFromFileState extends State<PlayAudioFromFile> {
 
   Future setAudio() async {
     // audioPlayer.setReleaseMode((ReleaseMode.LOOP));
-    audioPlayer.setSourceUrl(widget.audioMsgUrl);
+    audioPlayer.setUrl(widget.audioMsgUrl);
     // audioPlayer.setUrl(widget.audioMsgUrl);
   }
 
@@ -92,7 +92,7 @@ class _PlayAudioFromFileState extends State<PlayAudioFromFile> {
             IconButton(
                 icon: const Icon(Icons.play_arrow),
                 onPressed: () {
-                  audioPlayer.play(widget.audioMsgUrl as Source);
+                  audioPlayer.play(widget.audioMsgUrl);
                 }),
             IconButton(
                 icon: const Icon(Icons.pause),

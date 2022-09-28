@@ -16,6 +16,7 @@ class ChatModel {
     required this.receiverNumber,
     required this.receiverName,
     required this.textMasseg,
+    required this.emojiMessage,
     required this.datetime,
     required this.massageStatus,
     required this.imageMessage,
@@ -33,6 +34,7 @@ class ChatModel {
   String receiverNumber;
   String receiverName;
   String textMasseg;
+  String emojiMessage;
   DateTime datetime;
   String massageStatus;
   String audioMessage;
@@ -50,6 +52,7 @@ class ChatModel {
         receiverNumber: json["receiver_number"] ?? '',
         receiverName: json["receiver_name"] ?? '',
         textMasseg: json["text_masseg"] ?? '',
+        emojiMessage: json["mems"] ?? '',
         datetime: DateTime.parse(
             json["datetime"] ?? DateTime.now().toIso8601String()),
         massageStatus: json["massage_status"] ?? '',
@@ -69,6 +72,7 @@ class ChatModel {
         "receiver_number": receiverNumber,
         "receiver_name": receiverName,
         "text_masseg": textMasseg,
+        "mems": emojiMessage,
         "datetime": datetime.toIso8601String(),
         "massage_status": massageStatus,
         "file_msg": imageMessage,

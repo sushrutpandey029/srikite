@@ -50,13 +50,15 @@ class ChatRepo {
       String senderId, String receiverId) async {
     List<ChatModel> list = [];
     String url = '$_chatApi/show_msg_by_sr';
-    String url2 = '$_chatApi/mems_list';
     try {
       Response response = await Dio()
           .post(url, data: {"sender_id": senderId, "receiver_id": receiverId});
       if (response.data['status'] == 1) {
         for (Map<String, dynamic> map in response.data['txt_msg']) {
           ChatModel chat = ChatModel.fromMap(map);
+          bool hasEmoji = parser.hasEmoji(chat.textMasseg);
+          print("hasEmoji - $hasEmoji");
+          print(chat.emojiMessage);
           list.add(chat);
         }
       }
@@ -66,16 +68,46 @@ class ChatRepo {
     }
   }
 
+  // Future<List<ChatModel>> fetchEmoji(String senderId, String receiverId) async {
+  //   List<ChatModel> list = [];
+  //   String url = '$_chatApi/mems_list';
+  //   try {
+  //     Response response = await Dio()
+  //         .post(url, data: {"sender_id": senderId, "receiver_id": receiverId});
+  //     if (response.data['status'] == 1) {
+  //       for (Map<String, dynamic> map in response.data['txt_msg']) {
+  //         ChatModel chat = ChatModel.fromMap(map);
+  //         bool hasEmoji = parser.hasEmoji(chat.textMasseg);
+  //         print("hasEmoji - $hasEmoji");
+  //         print(chat.textMasseg);
+  //         list.add(chat);
+  //       }
+  //     }
+  //     return list;
+  //   } on DioError {
+  //     rethrow;
+  //   }
+  // }
+
   Future<void> sendMessage(SendChatModel chatModel) async {
     String url1 = '$_chatApi/userone_reply_usertwo';
-    String url2 = '$_chatApi/send_mems_msg ';
     Emoji emojis = parser.getEmoji(chatModel.textMasseg);
-
+    print(chatModel.textMasseg);
     try {
-      if (emojis != Emoji.None) {}
       Response response = await Dio().post(url1, data: chatModel.toMap());
       log(response.toString());
-      response = await Dio().post(url2, data: chatModel.toMap());
+    } on DioError {
+      rethrow;
+    }
+  }
+
+  Future<void> sendEmoji(SendChatModel chatModel) async {
+    String url1 = '$_chatApi/send_mems_msg ';
+    bool hasEmoji = parser.hasEmoji(chatModel.textMasseg);
+    Emoji emojis = parser.getEmoji(chatModel.textMasseg);
+    print("emoji - ${chatModel.textMasseg}");
+    try {
+      Response response = await Dio().post(url1, data: chatModel.toMap());
       log(response.toString());
     } on DioError {
       rethrow;

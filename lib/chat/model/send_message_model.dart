@@ -18,6 +18,7 @@ class SendChatModel {
   String userReceiverRegNo;
   String userReceiverNumber;
   String userReceiverName;
+  String emojiMessage;
   String textMasseg;
   String imageMessage;
   String fileMessage;
@@ -33,6 +34,7 @@ class SendChatModel {
     required this.userReceiverNumber,
     required this.userReceiverName,
     required this.textMasseg,
+    required this.emojiMessage,
     required this.imageMessage,
     required this.fileMessage,
     required this.audioMessage,
@@ -48,6 +50,7 @@ class SendChatModel {
       userReceiverNumber: json["user_receiver_number"],
       userReceiverName: json["user_receiver_name"],
       textMasseg: json["text_masseg"],
+      emojiMessage: json["mems"],
       imageMessage: json["file_msg"],
       audioMessage: json["voice_record_msg"],
       fileMessage: json["file_msg"]);
@@ -64,6 +67,7 @@ class SendChatModel {
         "text_masseg": textMasseg,
         "file_msg": imageMessage,
         "voice_record_msg": audioMessage,
+        "mems": emojiMessage,
       };
 
   @override

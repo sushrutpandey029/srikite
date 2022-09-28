@@ -2,8 +2,9 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:audio_wave/audio_wave.dart';
-import 'package:emoji_picker_flutter/emoji_picker_flutter.dart';
+import 'package:flutter_emoji/flutter_emoji.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:emoji_picker_flutter/emoji_picker_flutter.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:kite/chat/ui/widgets/chat_app_bar_widget.dart';
@@ -245,6 +246,7 @@ class _ChatScreenState extends State<ChatScreen> {
                                         userReceiverNumber:
                                             value.selectedUser!.userPhoneNo,
                                         textMasseg: _messageController.text,
+                                        emojiMessage: "",
                                         imageMessage: pickedImage.path,
                                         fileMessage: '',
                                         audioMessage: '',
@@ -316,6 +318,7 @@ class _ChatScreenState extends State<ChatScreen> {
                                           userReceiverNumber:
                                               value.selectedUser!.userPhoneNo,
                                           textMasseg: _messageController.text,
+                                          emojiMessage: "",
                                           imageMessage: '',
                                           fileMessage: file.path,
                                           audioMessage: '',
@@ -441,6 +444,7 @@ class _ChatScreenState extends State<ChatScreen> {
                                         userReceiverNumber:
                                             value.selectedUser!.userPhoneNo,
                                         textMasseg: _messageController.text,
+                                        emojiMessage: "",
                                         imageMessage: '',
                                         fileMessage: '',
                                         audioMessage: audioFile,
@@ -487,12 +491,20 @@ class _ChatScreenState extends State<ChatScreen> {
                           userReceiverRegNo: value.selectedUser!.userRegNo,
                           userReceiverNumber: value.selectedUser!.userPhoneNo,
                           textMasseg: _messageController.text,
+                          emojiMessage: "",
                           imageMessage: '',
                           fileMessage: '',
                           audioMessage: '',
                         );
                         print('chatmodel data - {$chatModel}');
-                        value.sendMessage(chatModel, context);
+                        EmojiParser parser = EmojiParser();
+                        bool hasEmoji = parser.hasEmoji(chatModel.textMasseg);
+                        print("text has emoji - $hasEmoji");
+                        if (hasEmoji) {
+                          value.sendEmoji(chatModel, context);
+                        } else {
+                          value.sendMessage(chatModel, context);
+                        }
                         _messageController.clear();
                         FocusScope.of(context).unfocus();
                       },
@@ -513,11 +525,12 @@ class _ChatScreenState extends State<ChatScreen> {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: EmojiPicker(
-        textEditingController: _messageController,
         config: const Config(bgColor: Colors.white, columns: 8),
         onBackspacePressed: () {},
-        onEmojiSelected: (emoji, category) {
-          print(emoji);
+        onEmojiSelected: (category, emoji) {
+          setState(() {
+            _messageController.text += emoji.emoji;
+          });
         },
       ),
     );

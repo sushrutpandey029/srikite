@@ -5,7 +5,6 @@ import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:kite/authentication/check_auth.dart';
 import 'package:kite/authentication/ui/screens/get_started_screen.dart';
 import 'package:kite/call/ui/screens/call_page.dart';
 import 'package:kite/chat/provider/chat_provider.dart';
@@ -40,7 +39,7 @@ class _KiteAppState extends State<KiteApp> {
           ChangeNotifierProvider(create: (context) => ChatProvider()),
           ChangeNotifierProvider(create: (context) => ContactProvider()),
         ],
-        child: MaterialApp(
+        child: const MaterialApp(
           debugShowCheckedModeBanner: false,
           // theme: ThemeData.dark(),
           home: WidgetTest(),
@@ -52,7 +51,7 @@ class _KiteAppState extends State<KiteApp> {
 }
 
 class WidgetTest extends StatefulWidget {
-  WidgetTest({Key? key}) : super(key: key);
+  const WidgetTest({Key? key}) : super(key: key);
 
   @override
   State<WidgetTest> createState() => _WidgetTestState();

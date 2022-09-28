@@ -309,6 +309,18 @@ class ChatProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  Future<void> sendEmoji(SendChatModel chatModel, BuildContext context) async {
+    _messageHiveRepo.addMessages([ChatModel.fromMap(chatModel.toMap())], false);
+    fetchChatUsersLocal(context);
+    fetchChatLocal(chatModel.userSenderId, chatModel.userReceiverId);
+    notifyListeners();
+    await _chatRepo.sendEmoji(chatModel);
+    notifyListeners();
+    await fetchChatUsers(context);
+    await fetchChat(context);
+    notifyListeners();
+  }
+
   Future<void> sendAudio(SendChatModel chatModel, BuildContext context) async {
     try {
       _chatRepo.sendAudio(
