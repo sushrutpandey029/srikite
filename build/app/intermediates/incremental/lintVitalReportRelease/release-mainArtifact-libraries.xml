@@ -134,10 +134,36 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:just_audio::release"
+      jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/just_audio/.transforms/365a8cdcf9d97417f19c3a4787b5a1ef/transformed/out/jars/classes.jar"
+      resolved="com.ryanheise.just_audio:just_audio:unspecified"
+      folder="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/just_audio/.transforms/365a8cdcf9d97417f19c3a4787b5a1ef/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:flutter_webrtc::release"
       jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_webrtc/.transforms/6470926e66c506135cb7e53d6d8df89e/transformed/out/jars/classes.jar"
       resolved="com.cloudwebrtc.webrtc:flutter_webrtc:unspecified"
       folder="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_webrtc/.transforms/6470926e66c506135cb7e53d6d8df89e/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:audioplayers::release"
+      jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audioplayers/.transforms/1f3e0d0d2d85c3f32fe6ac5d974d8dae/transformed/out/jars/classes.jar"
+      resolved="xyz.luan.audioplayers:audioplayers:unspecified"
+      folder="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audioplayers/.transforms/1f3e0d0d2d85c3f32fe6ac5d974d8dae/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -251,19 +277,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:audioplayers_android::release"
-      jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audioplayers_android/.transforms/f25cdb85dbd1c7ec340b5f05d46d19c1/transformed/out/jars/classes.jar"
-      resolved="xyz.luan.audioplayers:audioplayers_android:unspecified"
-      folder="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audioplayers_android/.transforms/f25cdb85dbd1c7ec340b5f05d46d19c1/transformed/out"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:url_launcher_android::release"
       jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/.transforms/20ec257839973e8493238dcab3fab395/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.urllauncher:url_launcher_android:unspecified"
@@ -329,6 +342,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:audio_session::release"
+      jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audio_session/.transforms/5d9cc86f06ac3978e292d68cd286799a/transformed/out/jars/classes.jar"
+      resolved="com.ryanheise.audio_session:audio_session:unspecified"
+      folder="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audio_session/.transforms/5d9cc86f06ac3978e292d68cd286799a/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="io.flutter:flutter_embedding_release:1.0.0-a4ff2c53d84ca78702bc3be6c7ef0788ffca01d3@jar"
       jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/io.flutter/flutter_embedding_release/1.0.0-a4ff2c53d84ca78702bc3be6c7ef0788ffca01d3/769c0e5a37ed904e207570b3598bac2b78108f8a/flutter_embedding_release-1.0.0-a4ff2c53d84ca78702bc3be6c7ef0788ffca01d3.jar"
       resolved="io.flutter:flutter_embedding_release:1.0.0-a4ff2c53d84ca78702bc3be6c7ef0788ffca01d3"/>
@@ -359,17 +385,17 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0@jar"
-      jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.6.0/453fa53456bbaea50e51bd92d7f16f7bf6fcc58e/kotlinx-coroutines-android-1.6.0.jar"
-      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0"/>
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2@jar"
+      jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.5.2/d246a704a55b7bddb79407cce4348890eaa341d9/kotlinx-coroutines-android-1.5.2.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"/>
   <library
-      name="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.0@jar"
-      jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.0/f3b8fd26c2e76d2f18cbc36aacb6e349fcb9fd5f/kotlinx-coroutines-core-jvm-1.6.0.jar"
-      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.0"/>
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2@jar"
+      jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.5.2/f4cc07a50437659e0043e7da762809a46932b6a0/kotlinx-coroutines-core-jvm-1.5.2.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2"/>
   <library
-      name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0@jar"
-      jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.6.0/baf82c475e9372c25407f3d132439e4aa803b8b8/kotlin-stdlib-jdk8-1.6.0.jar"
-      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"/>
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30@jar"
+      jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.30/5fd47535cc85f9e24996f939c2de6583991481b0/kotlin-stdlib-jdk8-1.5.30.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"/>
   <library
       name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar"
       jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.7.10/1ef73fee66f45d52c67e2aca12fd945dbe0659bf/kotlin-stdlib-jdk7-1.7.10.jar"
@@ -856,10 +882,75 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="com.google.android.exoplayer:exoplayer-dash:2.17.1@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/a29ce861646d1ec4a91b296ad168023d/transformed/jetified-exoplayer-dash-2.17.1/jars/classes.jar"
+      resolved="com.google.android.exoplayer:exoplayer-dash:2.17.1"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/a29ce861646d1ec4a91b296ad168023d/transformed/jetified-exoplayer-dash-2.17.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.exoplayer:exoplayer-hls:2.17.1@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/7a209008d8ed363ee075e6dbacbe8ce7/transformed/jetified-exoplayer-hls-2.17.1/jars/classes.jar"
+      resolved="com.google.android.exoplayer:exoplayer-hls:2.17.1"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/7a209008d8ed363ee075e6dbacbe8ce7/transformed/jetified-exoplayer-hls-2.17.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/2a0fd56d678f16850384934d551a0abe/transformed/jetified-exoplayer-smoothstreaming-2.17.1/jars/classes.jar"
+      resolved="com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/2a0fd56d678f16850384934d551a0abe/transformed/jetified-exoplayer-smoothstreaming-2.17.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.exoplayer:exoplayer-core:2.17.1@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/24bd4b0f5325524118332d03c42bfa9f/transformed/jetified-exoplayer-core-2.17.1/jars/classes.jar"
+      resolved="com.google.android.exoplayer:exoplayer-core:2.17.1"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/24bd4b0f5325524118332d03c42bfa9f/transformed/jetified-exoplayer-core-2.17.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="com.twilio:audioswitch:1.1.5@aar"
       jars="/home/falcon_codes/.gradle/caches/transforms-3/d50d80da56646fbbcb4ba47f0f71ec98/transformed/jetified-audioswitch-1.1.5/jars/classes.jar"
       resolved="com.twilio:audioswitch:1.1.5"
       folder="/home/falcon_codes/.gradle/caches/transforms-3/d50d80da56646fbbcb4ba47f0f71ec98/transformed/jetified-audioswitch-1.1.5"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.core:core-ktx:1.6.0@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/b2bfd3da235e68d44e248bdda42c180d/transformed/jetified-core-ktx-1.6.0/jars/classes.jar"
+      resolved="androidx.core:core-ktx:1.6.0"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/b2bfd3da235e68d44e248bdda42c180d/transformed/jetified-core-ktx-1.6.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -921,10 +1012,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.media:media:1.4.1@aar"
-      jars="/home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/jars/classes.jar"
-      resolved="androidx.media:media:1.4.1"
-      folder="/home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1"
+      name="androidx.media2:media2-session:1.2.0@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/jars/classes.jar"
+      resolved="androidx.media2:media2-session:1.2.0"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -934,10 +1025,23 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.core:core-ktx:1.7.0@aar"
-      jars="/home/falcon_codes/.gradle/caches/transforms-3/2a2d08b39ec1ee960b6aa9a0068cb3a9/transformed/jetified-core-ktx-1.7.0/jars/classes.jar"
-      resolved="androidx.core:core-ktx:1.7.0"
-      folder="/home/falcon_codes/.gradle/caches/transforms-3/2a2d08b39ec1ee960b6aa9a0068cb3a9/transformed/jetified-core-ktx-1.7.0"
+      name="androidx.media2:media2-common:1.2.0@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/e03c4dfa2730ebae56d2a40463ce8cb9/transformed/jetified-media2-common-1.2.0/jars/classes.jar"
+      resolved="androidx.media2:media2-common:1.2.0"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/e03c4dfa2730ebae56d2a40463ce8cb9/transformed/jetified-media2-common-1.2.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.media:media:1.4.1@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/jars/classes.jar"
+      resolved="androidx.media:media:1.4.1"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1328,6 +1432,71 @@
       jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/androidx.resourceinspection/resourceinspection-annotation/1.0.0/8c21f8ff5d96d5d52c948707f7e4d6ca6773feef/resourceinspection-annotation-1.0.0.jar"
       resolved="androidx.resourceinspection:resourceinspection-annotation:1.0.0"/>
   <library
+      name="com.google.android.exoplayer:exoplayer-datasource:2.17.1@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/8064caf2c87a826f6bc09c590fc7a092/transformed/jetified-exoplayer-datasource-2.17.1/jars/classes.jar"
+      resolved="com.google.android.exoplayer:exoplayer-datasource:2.17.1"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/8064caf2c87a826f6bc09c590fc7a092/transformed/jetified-exoplayer-datasource-2.17.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.exoplayer:exoplayer-extractor:2.17.1@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/99b57a01a547c54ed419a69185f99681/transformed/jetified-exoplayer-extractor-2.17.1/jars/classes.jar"
+      resolved="com.google.android.exoplayer:exoplayer-extractor:2.17.1"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/99b57a01a547c54ed419a69185f99681/transformed/jetified-exoplayer-extractor-2.17.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.exoplayer:exoplayer-decoder:2.17.1@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/47715a17254c1d0a84256da3630122e5/transformed/jetified-exoplayer-decoder-2.17.1/jars/classes.jar"
+      resolved="com.google.android.exoplayer:exoplayer-decoder:2.17.1"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/47715a17254c1d0a84256da3630122e5/transformed/jetified-exoplayer-decoder-2.17.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.exoplayer:exoplayer-database:2.17.1@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/52bf02f9a41b2f8266a4b7ccc0c3b2ac/transformed/jetified-exoplayer-database-2.17.1/jars/classes.jar"
+      resolved="com.google.android.exoplayer:exoplayer-database:2.17.1"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/52bf02f9a41b2f8266a4b7ccc0c3b2ac/transformed/jetified-exoplayer-database-2.17.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.exoplayer:exoplayer-common:2.17.1@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/511b743113487d18459f383b92dd4b6d/transformed/jetified-exoplayer-common-2.17.1/jars/classes.jar"
+      resolved="com.google.android.exoplayer:exoplayer-common:2.17.1"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/511b743113487d18459f383b92dd4b6d/transformed/jetified-exoplayer-common-2.17.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.concurrent:concurrent-futures:1.0.0@jar"
       jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.0.0/c1e77e3ee6f4643b77496a1ddf7a2eef1aefdaa1/concurrent-futures-1.0.0.jar"
       resolved="androidx.concurrent:concurrent-futures:1.0.0"/>
@@ -1430,9 +1599,9 @@
       jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.44.1/d725bde5e0944b626f63b23657d5deb65f5b7e4f/grpc-api-1.44.1.jar"
       resolved="io.grpc:grpc-api:1.44.1"/>
   <library
-      name="com.google.guava:guava:30.1.1-android@jar"
-      jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/30.1.1-android/5963ed171d561cca6f14659f3439b46a1633ab13/guava-30.1.1-android.jar"
-      resolved="com.google.guava:guava:30.1.1-android"/>
+      name="com.google.guava:guava:31.0.1-android@jar"
+      jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.0.1-android/b400db548e748a1a60ba18543ad4fbb44a675a69/guava-31.0.1-android.jar"
+      resolved="com.google.guava:guava:31.0.1-android"/>
   <library
       name="com.journeyapps:zxing-android-embedded:4.3.0@aar"
       jars="/home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/jars/classes.jar"
@@ -1549,6 +1718,10 @@
       name="io.perfmark:perfmark-api:0.23.0@jar"
       jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.23.0/b813b7539fae6550541da8caafd6add86d4e22f/perfmark-api-0.23.0.jar"
       resolved="io.perfmark:perfmark-api:0.23.0"/>
+  <library
+      name="org.checkerframework:checker-qual:3.12.0@jar"
+      jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5/checker-qual-3.12.0.jar"
+      resolved="org.checkerframework:checker-qual:3.12.0"/>
   <library
       name="com.google.android:annotations:4.1.1.4@jar"
       jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/a1678ba907bf92691d879fef34e1a187038f9259/annotations-4.1.1.4.jar"

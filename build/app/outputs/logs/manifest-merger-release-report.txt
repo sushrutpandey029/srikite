@@ -103,7 +103,9 @@ MERGED from [:file_picker] /home/falcon_codes/prathamesh/app_dev/flutter_project
 MERGED from [:path_provider_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:qr_code_scanner] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/qr_code_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:shared_preferences_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:just_audio] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_webrtc] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_webrtc/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:audioplayers] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audioplayers/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-50:12
 MERGED from [:fluttertoast] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:contacts_service] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-24:12
@@ -112,12 +114,12 @@ MERGED from [:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutte
 MERGED from [:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
 MERGED from [:flutter_plugin_android_lifecycle] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-38:12
-MERGED from [:audioplayers_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audioplayers_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-16:12
 MERGED from [:webview_flutter_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/webview_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:permission_handler_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:device_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/device_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:emoji_picker_flutter] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/emoji_picker_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:audio_session] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/6ac8fe00318eac3846ce169222ce2b77/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/falcon_codes/.gradle/caches/transforms-3/981e9f56578abd1a82f4cde37f09e724/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -137,13 +139,19 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/falcon_code
 MERGED from [com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
 MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/falcon_codes/.gradle/caches/transforms-3/13fa11e88448514f8cc2c084a8d2c7fc/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:2:1-18:12
 MERGED from [androidx.appcompat:appcompat:1.4.2] /home/falcon_codes/.gradle/caches/transforms-3/1210857067e657a6c7a2a0409b664273/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/a29ce861646d1ec4a91b296ad168023d/transformed/jetified-exoplayer-dash-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/7a209008d8ed363ee075e6dbacbe8ce7/transformed/jetified-exoplayer-hls-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/2a0fd56d678f16850384934d551a0abe/transformed/jetified-exoplayer-smoothstreaming-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/24bd4b0f5325524118332d03c42bfa9f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:17:1-26:12
 MERGED from [com.twilio:audioswitch:1.1.5] /home/falcon_codes/.gradle/caches/transforms-3/d50d80da56646fbbcb4ba47f0f71ec98/transformed/jetified-audioswitch-1.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.core:core-ktx:1.6.0] /home/falcon_codes/.gradle/caches/transforms-3/b2bfd3da235e68d44e248bdda42c180d/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.browser:browser:1.4.0] /home/falcon_codes/.gradle/caches/transforms-3/52bdb465cd3537e0eb13c370deec4479/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/5fe864ad5f5af7c74e616d429114d6cf/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/7fd9a28992064adc42f534c659480819/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/falcon_codes/.gradle/caches/transforms-3/12068bb774807d617706ef906863e50a/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.media2:media2-common:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/e03c4dfa2730ebae56d2a40463ce8cb9/transformed/jetified-media2-common-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.core:core-ktx:1.7.0] /home/falcon_codes/.gradle/caches/transforms-3/2a2d08b39ec1ee960b6aa9a0068cb3a9/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.webkit:webkit:1.5.0] /home/falcon_codes/.gradle/caches/transforms-3/75bda56e94a88596b5a3e98f1fd2e412/transformed/webkit-1.5.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/407e0e389525b15c3e58f2e18a57bb01/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/falcon_codes/.gradle/caches/transforms-3/731aeb845b53b67f7489925c09832239/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
@@ -183,6 +191,11 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/falc
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/falcon_codes/.gradle/caches/transforms-3/be2f2d85dbe05ac6e1e236434f1c0286/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/ee7b4de9474d7c1e125c55494eb52043/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.1.0] /home/falcon_codes/.gradle/caches/transforms-3/d954bd6e0dbe3ae5a688ac7d3f20b182/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/8064caf2c87a826f6bc09c590fc7a092/transformed/jetified-exoplayer-datasource-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/99b57a01a547c54ed419a69185f99681/transformed/jetified-exoplayer-extractor-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/47715a17254c1d0a84256da3630122e5/transformed/jetified-exoplayer-decoder-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/52bf02f9a41b2f8266a4b7ccc0c3b2ac/transformed/jetified-exoplayer-database-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/511b743113487d18459f383b92dd4b6d/transformed/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/falcon_codes/.gradle/caches/transforms-3/3c5ce6d0a4ed5fd31bb55a33a9a885ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/939cd80188eaa2e7ed77105e81254c3d/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/falcon_codes/.gradle/caches/transforms-3/328ca841525b2fcc557e3cf2fbf3f3df/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
@@ -288,8 +301,12 @@ MERGED from [com.google.firebase:firebase-database:20.0.5] /home/falcon_codes/.g
 MERGED from [com.google.firebase:firebase-database:20.0.5] /home/falcon_codes/.gradle/caches/transforms-3/45585500f263f2eaeab4eba4ffd7b516/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/e86ee8f548074efea5a98e64936ec817/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/e86ee8f548074efea5a98e64936ec817/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/24bd4b0f5325524118332d03c42bfa9f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/24bd4b0f5325524118332d03c42bfa9f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/0e8b9b472468aa4cffb8fab158aca920/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/0e8b9b472468aa4cffb8fab158aca920/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/511b743113487d18459f383b92dd4b6d/transformed/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/511b743113487d18459f383b92dd4b6d/transformed/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:24:5-79
 MERGED from [io.grpc:grpc-android:1.44.1] /home/falcon_codes/.gradle/caches/transforms-3/797f75731d9208f89bc56d2dee4ffca0/transformed/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
 MERGED from [io.grpc:grpc-android:1.44.1] /home/falcon_codes/.gradle/caches/transforms-3/797f75731d9208f89bc56d2dee4ffca0/transformed/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
 	android:name
@@ -330,8 +347,12 @@ MERGED from [:qr_code_scanner] /home/falcon_codes/prathamesh/app_dev/flutter_pro
 MERGED from [:qr_code_scanner] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/qr_code_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-9:67
 MERGED from [:shared_preferences_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:shared_preferences_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:just_audio] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:just_audio] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_webrtc] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_webrtc/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_webrtc] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_webrtc/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:audioplayers] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audioplayers/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:audioplayers] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audioplayers/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:fluttertoast] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
@@ -348,8 +369,6 @@ MERGED from [:flutter_plugin_android_lifecycle] /home/falcon_codes/prathamesh/ap
 MERGED from [:flutter_plugin_android_lifecycle] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:audioplayers_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audioplayers_android/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:audioplayers_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audioplayers_android/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:webview_flutter_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/webview_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
@@ -360,6 +379,8 @@ MERGED from [:device_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_pr
 MERGED from [:device_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/device_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:emoji_picker_flutter] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/emoji_picker_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:emoji_picker_flutter] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/emoji_picker_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_session] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_session] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/6ac8fe00318eac3846ce169222ce2b77/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/6ac8fe00318eac3846ce169222ce2b77/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
@@ -398,8 +419,18 @@ MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/falcon_codes/
 MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/falcon_codes/.gradle/caches/transforms-3/13fa11e88448514f8cc2c084a8d2c7fc/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.4.2] /home/falcon_codes/.gradle/caches/transforms-3/1210857067e657a6c7a2a0409b664273/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.2] /home/falcon_codes/.gradle/caches/transforms-3/1210857067e657a6c7a2a0409b664273/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/a29ce861646d1ec4a91b296ad168023d/transformed/jetified-exoplayer-dash-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/a29ce861646d1ec4a91b296ad168023d/transformed/jetified-exoplayer-dash-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/7a209008d8ed363ee075e6dbacbe8ce7/transformed/jetified-exoplayer-hls-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/7a209008d8ed363ee075e6dbacbe8ce7/transformed/jetified-exoplayer-hls-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/2a0fd56d678f16850384934d551a0abe/transformed/jetified-exoplayer-smoothstreaming-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/2a0fd56d678f16850384934d551a0abe/transformed/jetified-exoplayer-smoothstreaming-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/24bd4b0f5325524118332d03c42bfa9f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/24bd4b0f5325524118332d03c42bfa9f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.twilio:audioswitch:1.1.5] /home/falcon_codes/.gradle/caches/transforms-3/d50d80da56646fbbcb4ba47f0f71ec98/transformed/jetified-audioswitch-1.1.5/AndroidManifest.xml:5:5-7:41
 MERGED from [com.twilio:audioswitch:1.1.5] /home/falcon_codes/.gradle/caches/transforms-3/d50d80da56646fbbcb4ba47f0f71ec98/transformed/jetified-audioswitch-1.1.5/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /home/falcon_codes/.gradle/caches/transforms-3/b2bfd3da235e68d44e248bdda42c180d/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /home/falcon_codes/.gradle/caches/transforms-3/b2bfd3da235e68d44e248bdda42c180d/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.browser:browser:1.4.0] /home/falcon_codes/.gradle/caches/transforms-3/52bdb465cd3537e0eb13c370deec4479/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.4.0] /home/falcon_codes/.gradle/caches/transforms-3/52bdb465cd3537e0eb13c370deec4479/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/5fe864ad5f5af7c74e616d429114d6cf/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
@@ -408,10 +439,12 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/falcon_codes/.g
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/7fd9a28992064adc42f534c659480819/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/falcon_codes/.gradle/caches/transforms-3/12068bb774807d617706ef906863e50a/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/falcon_codes/.gradle/caches/transforms-3/12068bb774807d617706ef906863e50a/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/e03c4dfa2730ebae56d2a40463ce8cb9/transformed/jetified-media2-common-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/e03c4dfa2730ebae56d2a40463ce8cb9/transformed/jetified-media2-common-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.7.0] /home/falcon_codes/.gradle/caches/transforms-3/2a2d08b39ec1ee960b6aa9a0068cb3a9/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.7.0] /home/falcon_codes/.gradle/caches/transforms-3/2a2d08b39ec1ee960b6aa9a0068cb3a9/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.webkit:webkit:1.5.0] /home/falcon_codes/.gradle/caches/transforms-3/75bda56e94a88596b5a3e98f1fd2e412/transformed/webkit-1.5.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.webkit:webkit:1.5.0] /home/falcon_codes/.gradle/caches/transforms-3/75bda56e94a88596b5a3e98f1fd2e412/transformed/webkit-1.5.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/407e0e389525b15c3e58f2e18a57bb01/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
@@ -490,6 +523,16 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/falcon_codes/.gra
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/ee7b4de9474d7c1e125c55494eb52043/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.1.0] /home/falcon_codes/.gradle/caches/transforms-3/d954bd6e0dbe3ae5a688ac7d3f20b182/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] /home/falcon_codes/.gradle/caches/transforms-3/d954bd6e0dbe3ae5a688ac7d3f20b182/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/8064caf2c87a826f6bc09c590fc7a092/transformed/jetified-exoplayer-datasource-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/8064caf2c87a826f6bc09c590fc7a092/transformed/jetified-exoplayer-datasource-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/99b57a01a547c54ed419a69185f99681/transformed/jetified-exoplayer-extractor-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/99b57a01a547c54ed419a69185f99681/transformed/jetified-exoplayer-extractor-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/47715a17254c1d0a84256da3630122e5/transformed/jetified-exoplayer-decoder-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/47715a17254c1d0a84256da3630122e5/transformed/jetified-exoplayer-decoder-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/52bf02f9a41b2f8266a4b7ccc0c3b2ac/transformed/jetified-exoplayer-database-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/52bf02f9a41b2f8266a4b7ccc0c3b2ac/transformed/jetified-exoplayer-database-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/511b743113487d18459f383b92dd4b6d/transformed/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/511b743113487d18459f383b92dd4b6d/transformed/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/falcon_codes/.gradle/caches/transforms-3/3c5ce6d0a4ed5fd31bb55a33a9a885ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/falcon_codes/.gradle/caches/transforms-3/3c5ce6d0a4ed5fd31bb55a33a9a885ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/939cd80188eaa2e7ed77105e81254c3d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
@@ -718,6 +761,8 @@ MERGED from [:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutte
 MERGED from [:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
 MERGED from [:contacts_service] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-22:15
 MERGED from [:contacts_service] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-22:15
+MERGED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:24:5-34:15
+MERGED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:24:5-34:15
 MERGED from [androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
 MERGED from [androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
 intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
@@ -1073,11 +1118,23 @@ ADDED from [com.twilio:audioswitch:1.1.5] /home/falcon_codes/.gradle/caches/tran
 	android:name
 		ADDED from [com.twilio:audioswitch:1.1.5] /home/falcon_codes/.gradle/caches/transforms-3/d50d80da56646fbbcb4ba47f0f71ec98/transformed/jetified-audioswitch-1.1.5/AndroidManifest.xml:12:22-73
 intent#action:name:android.media.browse.MediaBrowserService
-ADDED from [androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:25:9-27:18
+ADDED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:25:9-27:18
 action#android.media.browse.MediaBrowserService
-ADDED from [androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:26:13-79
+ADDED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:26:13-79
 	android:name
-		ADDED from [androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:26:21-76
+		ADDED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:26:21-76
+intent#action:name:androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:28:9-30:18
+action#androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:21-79
+intent#action:name:androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:31:9-33:18
+action#androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:21-79
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
 	android:exported

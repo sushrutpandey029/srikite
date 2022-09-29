@@ -13,7 +13,7 @@ AppBar customAppBar(String title,
       title,
       style: heading2,
     ),
-    automaticallyImplyLeading: false,
+    // automaticallyImplyLeading: false,
     actions: [
       if (actionIcons != null)
         for (int i = 0; i < actionIcons.length; i++)

@@ -90,679 +90,691 @@
 45                android:scheme="content" />
 46        </intent>
 47        <intent>
-47-->[androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:25:9-27:18
+47-->[androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:25:9-27:18
 48            <action android:name="android.media.browse.MediaBrowserService" />
-48-->[androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:26:13-79
-48-->[androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:26:21-76
+48-->[androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:26:13-79
+48-->[androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:26:21-76
 49        </intent>
-50    </queries>
-51
-52    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-52-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
-52-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
-53    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-53-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
-53-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
-54    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-54-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:29:5-82
-54-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:29:22-79
-55    <uses-permission
-55-->[com.github.canardoux:flutter_sound_core:9.2.13] /home/falcon_codes/.gradle/caches/transforms-3/13fa11e88448514f8cc2c084a8d2c7fc/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:11:5-68
-56        android:name="android.permission.BLUETOOTH"
-56-->[com.github.canardoux:flutter_sound_core:9.2.13] /home/falcon_codes/.gradle/caches/transforms-3/13fa11e88448514f8cc2c084a8d2c7fc/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:11:22-65
-57        android:maxSdkVersion="30" />
-57-->[com.twilio:audioswitch:1.1.5] /home/falcon_codes/.gradle/caches/transforms-3/d50d80da56646fbbcb4ba47f0f71ec98/transformed/jetified-audioswitch-1.1.5/AndroidManifest.xml:11:9-35
-58    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-58-->[com.twilio:audioswitch:1.1.5] /home/falcon_codes/.gradle/caches/transforms-3/d50d80da56646fbbcb4ba47f0f71ec98/transformed/jetified-audioswitch-1.1.5/AndroidManifest.xml:12:5-76
-58-->[com.twilio:audioswitch:1.1.5] /home/falcon_codes/.gradle/caches/transforms-3/d50d80da56646fbbcb4ba47f0f71ec98/transformed/jetified-audioswitch-1.1.5/AndroidManifest.xml:12:22-73
-59
-60    <uses-feature
-60-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
-61        android:name="android.hardware.camera.front"
-61-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
-62        android:required="false" />
-62-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
-63    <uses-feature
-63-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
-64        android:name="android.hardware.camera.flash"
-64-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
-65        android:required="false" />
-65-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+50        <intent>
+50-->[androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:28:9-30:18
+51            <action android:name="androidx.media2.session.MediaSessionService" />
+51-->[androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:13-82
+51-->[androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:21-79
+52        </intent>
+53        <intent>
+53-->[androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:31:9-33:18
+54            <action android:name="androidx.media2.session.MediaLibraryService" />
+54-->[androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:13-82
+54-->[androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:21-79
+55        </intent>
+56    </queries>
+57
+58    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+58-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+58-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+59    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+59-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+59-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+60    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+60-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:29:5-82
+60-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:29:22-79
+61    <uses-permission
+61-->[com.github.canardoux:flutter_sound_core:9.2.13] /home/falcon_codes/.gradle/caches/transforms-3/13fa11e88448514f8cc2c084a8d2c7fc/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:11:5-68
+62        android:name="android.permission.BLUETOOTH"
+62-->[com.github.canardoux:flutter_sound_core:9.2.13] /home/falcon_codes/.gradle/caches/transforms-3/13fa11e88448514f8cc2c084a8d2c7fc/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:11:22-65
+63        android:maxSdkVersion="30" />
+63-->[com.twilio:audioswitch:1.1.5] /home/falcon_codes/.gradle/caches/transforms-3/d50d80da56646fbbcb4ba47f0f71ec98/transformed/jetified-audioswitch-1.1.5/AndroidManifest.xml:11:9-35
+64    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+64-->[com.twilio:audioswitch:1.1.5] /home/falcon_codes/.gradle/caches/transforms-3/d50d80da56646fbbcb4ba47f0f71ec98/transformed/jetified-audioswitch-1.1.5/AndroidManifest.xml:12:5-76
+64-->[com.twilio:audioswitch:1.1.5] /home/falcon_codes/.gradle/caches/transforms-3/d50d80da56646fbbcb4ba47f0f71ec98/transformed/jetified-audioswitch-1.1.5/AndroidManifest.xml:12:22-73
+65
 66    <uses-feature
-66-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
-67        android:name="android.hardware.screen.landscape"
-67-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+66-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+67        android:name="android.hardware.camera.front"
+67-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
 68        android:required="false" />
-68-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+68-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
 69    <uses-feature
-69-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
-70        android:name="android.hardware.wifi"
-70-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
-71        android:required="false" /> <!-- for android -->
-71-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
-72    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
-73    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
-74    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
-75    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
-76    <!-- for Samsung -->
-77    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-77-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
-77-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
-78    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
-78-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
-78-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
-79    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-79-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
-79-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
-80    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
-80-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
-80-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
-81    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-81-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
-81-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
-82    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
-82-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
-82-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
-83    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
-83-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
-83-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
-84    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
-84-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
-84-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
-85    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-85-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
-85-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
-86    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-86-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
-86-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
-87    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
-87-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
-87-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
-88    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
-88-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
-88-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
-89    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-89-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
-89-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
-90    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
-90-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
-90-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
-91    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-91-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
-91-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
-92    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-92-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
-92-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
-93
-94    <application
-95        android:name="android.app.Application"
-95-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:15:9-42
-96        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-96-->[androidx.core:core:1.8.0] /home/falcon_codes/.gradle/caches/transforms-3/b4d3cee18af88fb704fd306b8b06033e/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
-97        android:icon="@mipmap/ic_launcher"
-97-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:16:9-43
-98        android:label="kite" >
-98-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:14:9-29
-99        <activity
-99-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:17:9-37:20
-100            android:name="com.example.kite.MainActivity"
-100-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:18:13-41
-101            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-101-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:22:13-163
-102            android:exported="true"
-102-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:19:13-36
-103            android:hardwareAccelerated="true"
-103-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:23:13-47
-104            android:launchMode="singleTop"
-104-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:20:13-43
-105            android:theme="@style/LaunchTheme"
-105-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:21:13-47
-106            android:windowSoftInputMode="adjustResize" >
-106-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:24:13-55
-107
-108            <!--
-109                 Specifies an Android theme to apply to this Activity as soon as
-110                 the Android process has started. This theme is visible to the user
-111                 while the Flutter UI initializes. After that, this theme continues
-112                 to determine the Window background behind the Flutter UI.
-113            -->
-114            <meta-data
-114-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:29:13-32:17
-115                android:name="io.flutter.embedding.android.NormalTheme"
-115-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:30:15-70
-116                android:resource="@style/NormalTheme" />
-116-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:31:15-52
-117
-118            <intent-filter>
-118-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:33:13-36:29
-119                <action android:name="android.intent.action.MAIN" />
-119-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:34:17-68
-119-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:34:25-66
-120
-121                <category android:name="android.intent.category.LAUNCHER" />
-121-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:35:17-76
-121-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:35:27-74
-122            </intent-filter>
-123        </activity>
-124        <!--
-125             Don't delete the meta-data below.
-126             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-127        -->
-128
-129        <meta-data
-129-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:41:9-43:33
-130            android:name="flutterEmbedding"
-130-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:42:13-44
-131            android:value="2" />
-131-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:43:13-30
-132
-133        <service
-133-->[:firebase_database] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
-134            android:name="com.google.firebase.components.ComponentDiscoveryService"
-134-->[:firebase_database] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
-135            android:directBootAware="true"
-135-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
-136            android:exported="false" >
-136-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:55:13-37
-137            <meta-data
-137-->[:firebase_database] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
-138                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
-138-->[:firebase_database] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-127
-139                android:value="com.google.firebase.components.ComponentRegistrar" />
-139-->[:firebase_database] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
-140            <meta-data
-140-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
-141                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
-141-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
-142                android:value="com.google.firebase.components.ComponentRegistrar" />
-142-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+69-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+70        android:name="android.hardware.camera.flash"
+70-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+71        android:required="false" />
+71-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+72    <uses-feature
+72-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+73        android:name="android.hardware.screen.landscape"
+73-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+74        android:required="false" />
+74-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+75    <uses-feature
+75-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+76        android:name="android.hardware.wifi"
+76-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+77        android:required="false" /> <!-- for android -->
+77-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+78    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+79    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+80    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+81    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+82    <!-- for Samsung -->
+83    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+83-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+83-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+84    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+84-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+84-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+85    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+85-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+85-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+86    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+86-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+86-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+87    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+87-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+87-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+88    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+88-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+88-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+89    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+89-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+89-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+90    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+90-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+90-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+91    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+91-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+91-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+92    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+92-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+92-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+93    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+93-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+93-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+94    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+94-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+94-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+95    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+95-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+95-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+96    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+96-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+96-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+97    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+97-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+97-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+98    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+98-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+98-->[me.leolin:ShortcutBadger:1.1.22] /home/falcon_codes/.gradle/caches/transforms-3/1219eb5a78cdd0709f9ec469c5d56cf9/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+99
+100    <application
+101        android:name="android.app.Application"
+101-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:15:9-42
+102        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+102-->[androidx.core:core:1.8.0] /home/falcon_codes/.gradle/caches/transforms-3/b4d3cee18af88fb704fd306b8b06033e/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+103        android:icon="@mipmap/ic_launcher"
+103-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:16:9-43
+104        android:label="kite" >
+104-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:14:9-29
+105        <activity
+105-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:17:9-37:20
+106            android:name="com.example.kite.MainActivity"
+106-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:18:13-41
+107            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+107-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:22:13-163
+108            android:exported="true"
+108-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:19:13-36
+109            android:hardwareAccelerated="true"
+109-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:23:13-47
+110            android:launchMode="singleTop"
+110-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:20:13-43
+111            android:theme="@style/LaunchTheme"
+111-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:21:13-47
+112            android:windowSoftInputMode="adjustResize" >
+112-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:24:13-55
+113
+114            <!--
+115                 Specifies an Android theme to apply to this Activity as soon as
+116                 the Android process has started. This theme is visible to the user
+117                 while the Flutter UI initializes. After that, this theme continues
+118                 to determine the Window background behind the Flutter UI.
+119            -->
+120            <meta-data
+120-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:29:13-32:17
+121                android:name="io.flutter.embedding.android.NormalTheme"
+121-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:30:15-70
+122                android:resource="@style/NormalTheme" />
+122-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:31:15-52
+123
+124            <intent-filter>
+124-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:33:13-36:29
+125                <action android:name="android.intent.action.MAIN" />
+125-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:34:17-68
+125-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:34:25-66
+126
+127                <category android:name="android.intent.category.LAUNCHER" />
+127-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:35:17-76
+127-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:35:27-74
+128            </intent-filter>
+129        </activity>
+130        <!--
+131             Don't delete the meta-data below.
+132             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+133        -->
+134
+135        <meta-data
+135-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:41:9-43:33
+136            android:name="flutterEmbedding"
+136-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:42:13-44
+137            android:value="2" />
+137-->/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:43:13-30
+138
+139        <service
+139-->[:firebase_database] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+140            android:name="com.google.firebase.components.ComponentDiscoveryService"
+140-->[:firebase_database] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+141            android:directBootAware="true"
+141-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+142            android:exported="false" >
+142-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:55:13-37
 143            <meta-data
-143-->[:cloud_firestore] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
-144                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-144-->[:cloud_firestore] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+143-->[:firebase_database] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+144                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+144-->[:firebase_database] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-127
 145                android:value="com.google.firebase.components.ComponentRegistrar" />
-145-->[:cloud_firestore] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+145-->[:firebase_database] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 146            <meta-data
-146-->[:cloud_functions] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/cloud_functions/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
-147                android:name="com.google.firebase.components:io.flutter.plugins.firebase.functions.FlutterFirebaseAppRegistrar"
-147-->[:cloud_functions] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/cloud_functions/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-128
+146-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+147                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+147-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
 148                android:value="com.google.firebase.components.ComponentRegistrar" />
-148-->[:cloud_functions] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/cloud_functions/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+148-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
 149            <meta-data
-149-->[:firebase_auth] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
-150                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-150-->[:firebase_auth] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+149-->[:cloud_firestore] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+150                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+150-->[:cloud_firestore] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
 151                android:value="com.google.firebase.components.ComponentRegistrar" />
-151-->[:firebase_auth] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+151-->[:cloud_firestore] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 152            <meta-data
-152-->[:firebase_core] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
-153                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-153-->[:firebase_core] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+152-->[:cloud_functions] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/cloud_functions/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+153                android:name="com.google.firebase.components:io.flutter.plugins.firebase.functions.FlutterFirebaseAppRegistrar"
+153-->[:cloud_functions] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/cloud_functions/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-128
 154                android:value="com.google.firebase.components.ComponentRegistrar" />
-154-->[:firebase_core] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+154-->[:cloud_functions] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/cloud_functions/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 155            <meta-data
-155-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:56:13-58:85
-156                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-156-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:57:17-119
+155-->[:firebase_auth] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+156                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+156-->[:firebase_auth] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
 157                android:value="com.google.firebase.components.ComponentRegistrar" />
-157-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:58:17-82
+157-->[:firebase_auth] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 158            <meta-data
-158-->[com.google.firebase:firebase-datatransport:18.1.5] /home/falcon_codes/.gradle/caches/transforms-3/3d2cbb0daed3f5ec03e09f884546f151/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:28:13-30:85
-159                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-159-->[com.google.firebase:firebase-datatransport:18.1.5] /home/falcon_codes/.gradle/caches/transforms-3/3d2cbb0daed3f5ec03e09f884546f151/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:29:17-115
+158-->[:firebase_core] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+159                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+159-->[:firebase_core] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
 160                android:value="com.google.firebase.components.ComponentRegistrar" />
-160-->[com.google.firebase:firebase-datatransport:18.1.5] /home/falcon_codes/.gradle/caches/transforms-3/3d2cbb0daed3f5ec03e09f884546f151/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:30:17-82
+160-->[:firebase_core] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 161            <meta-data
-161-->[com.google.firebase:firebase-functions:20.1.0] /home/falcon_codes/.gradle/caches/transforms-3/61c0b90b7ab8f0279b8dad9c85d7f99d/transformed/jetified-firebase-functions-20.1.0/AndroidManifest.xml:18:13-20:85
-162                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
-162-->[com.google.firebase:firebase-functions:20.1.0] /home/falcon_codes/.gradle/caches/transforms-3/61c0b90b7ab8f0279b8dad9c85d7f99d/transformed/jetified-firebase-functions-20.1.0/AndroidManifest.xml:19:17-111
+161-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:56:13-58:85
+162                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+162-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:57:17-119
 163                android:value="com.google.firebase.components.ComponentRegistrar" />
-163-->[com.google.firebase:firebase-functions:20.1.0] /home/falcon_codes/.gradle/caches/transforms-3/61c0b90b7ab8f0279b8dad9c85d7f99d/transformed/jetified-firebase-functions-20.1.0/AndroidManifest.xml:20:17-82
+163-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:58:17-82
 164            <meta-data
-164-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:67:13-69:85
-165                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-165-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:68:17-109
+164-->[com.google.firebase:firebase-datatransport:18.1.5] /home/falcon_codes/.gradle/caches/transforms-3/3d2cbb0daed3f5ec03e09f884546f151/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:28:13-30:85
+165                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+165-->[com.google.firebase:firebase-datatransport:18.1.5] /home/falcon_codes/.gradle/caches/transforms-3/3d2cbb0daed3f5ec03e09f884546f151/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:29:17-115
 166                android:value="com.google.firebase.components.ComponentRegistrar" />
-166-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:69:17-82
+166-->[com.google.firebase:firebase-datatransport:18.1.5] /home/falcon_codes/.gradle/caches/transforms-3/3d2cbb0daed3f5ec03e09f884546f151/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:30:17-82
 167            <meta-data
-167-->[com.google.firebase:firebase-iid:21.1.0] /home/falcon_codes/.gradle/caches/transforms-3/6d37d59e8966ecca30fa5e5b05c4ba1b/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
-168                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-168-->[com.google.firebase:firebase-iid:21.1.0] /home/falcon_codes/.gradle/caches/transforms-3/6d37d59e8966ecca30fa5e5b05c4ba1b/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+167-->[com.google.firebase:firebase-functions:20.1.0] /home/falcon_codes/.gradle/caches/transforms-3/61c0b90b7ab8f0279b8dad9c85d7f99d/transformed/jetified-firebase-functions-20.1.0/AndroidManifest.xml:18:13-20:85
+168                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+168-->[com.google.firebase:firebase-functions:20.1.0] /home/falcon_codes/.gradle/caches/transforms-3/61c0b90b7ab8f0279b8dad9c85d7f99d/transformed/jetified-firebase-functions-20.1.0/AndroidManifest.xml:19:17-111
 169                android:value="com.google.firebase.components.ComponentRegistrar" />
-169-->[com.google.firebase:firebase-iid:21.1.0] /home/falcon_codes/.gradle/caches/transforms-3/6d37d59e8966ecca30fa5e5b05c4ba1b/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+169-->[com.google.firebase:firebase-functions:20.1.0] /home/falcon_codes/.gradle/caches/transforms-3/61c0b90b7ab8f0279b8dad9c85d7f99d/transformed/jetified-firebase-functions-20.1.0/AndroidManifest.xml:20:17-82
 170            <meta-data
-170-->[com.google.firebase:firebase-firestore:24.2.2] /home/falcon_codes/.gradle/caches/transforms-3/6121eb9700078863d9687208c6a82e71/transformed/jetified-firebase-firestore-24.2.2/AndroidManifest.xml:20:13-22:85
-171                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-171-->[com.google.firebase:firebase-firestore:24.2.2] /home/falcon_codes/.gradle/caches/transforms-3/6121eb9700078863d9687208c6a82e71/transformed/jetified-firebase-firestore-24.2.2/AndroidManifest.xml:21:17-111
+170-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:67:13-69:85
+171                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+171-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:68:17-109
 172                android:value="com.google.firebase.components.ComponentRegistrar" />
-172-->[com.google.firebase:firebase-firestore:24.2.2] /home/falcon_codes/.gradle/caches/transforms-3/6121eb9700078863d9687208c6a82e71/transformed/jetified-firebase-firestore-24.2.2/AndroidManifest.xml:22:17-82
+172-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:69:17-82
 173            <meta-data
-173-->[com.google.firebase:firebase-database:20.0.5] /home/falcon_codes/.gradle/caches/transforms-3/45585500f263f2eaeab4eba4ffd7b516/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
-174                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-174-->[com.google.firebase:firebase-database:20.0.5] /home/falcon_codes/.gradle/caches/transforms-3/45585500f263f2eaeab4eba4ffd7b516/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+173-->[com.google.firebase:firebase-iid:21.1.0] /home/falcon_codes/.gradle/caches/transforms-3/6d37d59e8966ecca30fa5e5b05c4ba1b/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+174                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+174-->[com.google.firebase:firebase-iid:21.1.0] /home/falcon_codes/.gradle/caches/transforms-3/6d37d59e8966ecca30fa5e5b05c4ba1b/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
 175                android:value="com.google.firebase.components.ComponentRegistrar" />
-175-->[com.google.firebase:firebase-database:20.0.5] /home/falcon_codes/.gradle/caches/transforms-3/45585500f263f2eaeab4eba4ffd7b516/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+175-->[com.google.firebase:firebase-iid:21.1.0] /home/falcon_codes/.gradle/caches/transforms-3/6d37d59e8966ecca30fa5e5b05c4ba1b/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
 176            <meta-data
-176-->[com.google.firebase:firebase-installations:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/e86ee8f548074efea5a98e64936ec817/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
-177                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-177-->[com.google.firebase:firebase-installations:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/e86ee8f548074efea5a98e64936ec817/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+176-->[com.google.firebase:firebase-firestore:24.2.2] /home/falcon_codes/.gradle/caches/transforms-3/6121eb9700078863d9687208c6a82e71/transformed/jetified-firebase-firestore-24.2.2/AndroidManifest.xml:20:13-22:85
+177                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+177-->[com.google.firebase:firebase-firestore:24.2.2] /home/falcon_codes/.gradle/caches/transforms-3/6121eb9700078863d9687208c6a82e71/transformed/jetified-firebase-firestore-24.2.2/AndroidManifest.xml:21:17-111
 178                android:value="com.google.firebase.components.ComponentRegistrar" />
-178-->[com.google.firebase:firebase-installations:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/e86ee8f548074efea5a98e64936ec817/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
-179        </service>
-180        <service
-180-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
-181            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
-181-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
-182            android:exported="false"
-182-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
-183            android:permission="android.permission.BIND_JOB_SERVICE" />
-183-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
-184        <service
-184-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
-185            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
-185-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
-186            android:exported="false" >
-186-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
-187            <intent-filter>
-187-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
-188                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-188-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
-188-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
-189            </intent-filter>
-190        </service>
-191
-192        <receiver
-192-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
-193            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
-193-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
-194            android:exported="true"
-194-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
-195            android:permission="com.google.android.c2dm.permission.SEND" >
-195-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
-196            <intent-filter>
-196-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
-197                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-197-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
-197-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
-198            </intent-filter>
-199        </receiver>
-200
-201        <provider
-201-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
-202            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-202-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
-203            android:authorities="com.example.kite.flutterfirebasemessaginginitprovider"
-203-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
-204            android:exported="false"
-204-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
-205            android:initOrder="99" />
-205-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+178-->[com.google.firebase:firebase-firestore:24.2.2] /home/falcon_codes/.gradle/caches/transforms-3/6121eb9700078863d9687208c6a82e71/transformed/jetified-firebase-firestore-24.2.2/AndroidManifest.xml:22:17-82
+179            <meta-data
+179-->[com.google.firebase:firebase-database:20.0.5] /home/falcon_codes/.gradle/caches/transforms-3/45585500f263f2eaeab4eba4ffd7b516/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+180                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+180-->[com.google.firebase:firebase-database:20.0.5] /home/falcon_codes/.gradle/caches/transforms-3/45585500f263f2eaeab4eba4ffd7b516/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[com.google.firebase:firebase-database:20.0.5] /home/falcon_codes/.gradle/caches/transforms-3/45585500f263f2eaeab4eba4ffd7b516/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+182            <meta-data
+182-->[com.google.firebase:firebase-installations:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/e86ee8f548074efea5a98e64936ec817/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+183                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+183-->[com.google.firebase:firebase-installations:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/e86ee8f548074efea5a98e64936ec817/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[com.google.firebase:firebase-installations:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/e86ee8f548074efea5a98e64936ec817/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+185        </service>
+186        <service
+186-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+187            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+187-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+188            android:exported="false"
+188-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+189            android:permission="android.permission.BIND_JOB_SERVICE" />
+189-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+190        <service
+190-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+191            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+191-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+192            android:exported="false" >
+192-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+193            <intent-filter>
+193-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+194                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+194-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+194-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+195            </intent-filter>
+196        </service>
+197
+198        <receiver
+198-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+199            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+199-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+200            android:exported="true"
+200-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+201            android:permission="com.google.android.c2dm.permission.SEND" >
+201-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+202            <intent-filter>
+202-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+203                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+203-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+203-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+204            </intent-filter>
+205        </receiver>
 206
-207        <activity
-207-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
-208            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
-208-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
-209            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
-209-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
-210            android:exported="true"
-210-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-36
-211            android:theme="@style/AppTheme" />
-211-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
-212        <activity
-212-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
-213            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
-213-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-112
-214            android:exported="true"
-214-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-36
-215            android:theme="@style/ThemeTransparent" />
-215-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
-216        <activity
-216-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
-217            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
-217-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-106
-218            android:exported="true"
-218-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
-219            android:theme="@style/ThemeTransparent" />
-219-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
-220        <activity
-220-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
-221            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
-221-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-126
-222            android:exported="true"
-222-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-36
-223            android:launchMode="singleInstance"
-223-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
-224            android:theme="@style/ThemeTransparent" />
-224-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
-225        <activity
-225-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
-226            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
-226-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-120
-227            android:exported="true"
-227-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-36
-228            android:launchMode="singleInstance"
-228-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
-229            android:theme="@style/ThemeTransparent" />
-229-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
-230
-231        <receiver
-231-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
-232            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
-232-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-111
-233            android:enabled="true"
-233-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
-234            android:exported="false" />
-234-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
-235
-236        <meta-data
-236-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
-237            android:name="io.flutter.embedded_views_preview"
-237-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
-238            android:value="true" />
-238-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
-239
-240        <provider
-240-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
-241            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-241-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
-242            android:authorities="com.example.kite.flutter.image_provider"
-242-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
-243            android:exported="false"
-243-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
-244            android:grantUriPermissions="true" >
-244-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
-245            <meta-data
-245-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
-246                android:name="android.support.FILE_PROVIDER_PATHS"
-246-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
-247                android:resource="@xml/flutter_image_picker_file_paths" />
-247-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
-248        </provider>
-249        <provider
-249-->[:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
-250            android:name="com.wisecrab.wc_flutter_share.WcFlutterShareFileProvider"
-250-->[:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-84
-251            android:authorities="com.example.kite.fileprovider.github.com/com/wisecrab/wc-flutter-share"
-251-->[:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-105
-252            android:exported="false"
-252-->[:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
-253            android:grantUriPermissions="true" >
-253-->[:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
-254            <meta-data
-254-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
-255                android:name="android.support.FILE_PROVIDER_PATHS"
-255-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
-256                android:resource="@xml/wc_flutter_share_filepaths" />
-256-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
-257        </provider>
-258
-259        <receiver
-259-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-15:40
-260            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.DismissedNotificationReceiver"
-260-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-121
-261            android:exported="false" />
-261-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
-262        <receiver
-262-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
-263            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.ScheduledNotificationReceiver"
-263-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-121
-264            android:exported="false" />
-264-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+207        <provider
+207-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+208            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+208-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+209            android:authorities="com.example.kite.flutterfirebasemessaginginitprovider"
+209-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+210            android:exported="false"
+210-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+211            android:initOrder="99" />
+211-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+212
+213        <activity
+213-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+214            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+214-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+215            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+215-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+216            android:exported="true"
+216-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-36
+217            android:theme="@style/AppTheme" />
+217-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+218        <activity
+218-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+219            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+219-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-112
+220            android:exported="true"
+220-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-36
+221            android:theme="@style/ThemeTransparent" />
+221-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+222        <activity
+222-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+223            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+223-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-106
+224            android:exported="true"
+224-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+225            android:theme="@style/ThemeTransparent" />
+225-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+226        <activity
+226-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+227            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+227-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-126
+228            android:exported="true"
+228-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-36
+229            android:launchMode="singleInstance"
+229-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+230            android:theme="@style/ThemeTransparent" />
+230-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+231        <activity
+231-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+232            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+232-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-120
+233            android:exported="true"
+233-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-36
+234            android:launchMode="singleInstance"
+234-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+235            android:theme="@style/ThemeTransparent" />
+235-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+236
+237        <receiver
+237-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+238            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+238-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-111
+239            android:enabled="true"
+239-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+240            android:exported="false" />
+240-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+241
+242        <meta-data
+242-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+243            android:name="io.flutter.embedded_views_preview"
+243-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+244            android:value="true" />
+244-->[:flutter_inappwebview] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+245
+246        <provider
+246-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+247            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+247-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+248            android:authorities="com.example.kite.flutter.image_provider"
+248-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+249            android:exported="false"
+249-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+250            android:grantUriPermissions="true" >
+250-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+251            <meta-data
+251-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+252                android:name="android.support.FILE_PROVIDER_PATHS"
+252-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+253                android:resource="@xml/flutter_image_picker_file_paths" />
+253-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+254        </provider>
+255        <provider
+255-->[:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+256            android:name="com.wisecrab.wc_flutter_share.WcFlutterShareFileProvider"
+256-->[:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-84
+257            android:authorities="com.example.kite.fileprovider.github.com/com/wisecrab/wc-flutter-share"
+257-->[:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-105
+258            android:exported="false"
+258-->[:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+259            android:grantUriPermissions="true" >
+259-->[:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+260            <meta-data
+260-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+261                android:name="android.support.FILE_PROVIDER_PATHS"
+261-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+262                android:resource="@xml/wc_flutter_share_filepaths" />
+262-->[:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+263        </provider>
+264
 265        <receiver
-265-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
-266            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.KeepOnTopActionReceiver"
-266-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-115
+265-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-15:40
+266            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.DismissedNotificationReceiver"
+266-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-121
 267            android:exported="false" />
-267-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+267-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
 268        <receiver
-268-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-35:20
-269            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.RefreshSchedulesReceiver"
-269-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-116
-270            android:exported="false" >
-270-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
-271            <intent-filter>
-271-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-34:29
-272                <category android:name="android.intent.category.DEFAULT" />
-272-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-76
-272-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:27-73
-273
-274                <action android:name="android.intent.action.BOOT_COMPLETED" />
-274-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-79
-274-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-76
-275                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
-275-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-86
-275-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-83
-276                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-276-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-84
-276-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-81
-277                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-277-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-82
-277-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-79
-278                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-278-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-82
-278-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-79
-279                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
-279-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-107
-279-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-104
-280            </intent-filter>
-281        </receiver>
-282
-283        <activity
-283-->[:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
-284            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-284-->[:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
-285            android:exported="false"
-285-->[:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
-286            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-286-->[:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
-287
-288        <uses-library
-288-->[androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-289            android:name="androidx.window.extensions"
-289-->[androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-290            android:required="false" />
-290-->[androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-291        <uses-library
-291-->[androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-292            android:name="androidx.window.sidecar"
-292-->[androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-293            android:required="false" />
-293-->[androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-294
-295        <receiver
-295-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:32:9-39:20
-296            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-296-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:33:13-78
-297            android:exported="true"
-297-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:34:13-36
-298            android:permission="com.google.android.c2dm.permission.SEND" >
-298-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:35:13-73
-299            <intent-filter>
-299-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
-300                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-300-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
-300-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
-301            </intent-filter>
-302        </receiver>
-303        <!--
-304             FirebaseMessagingService performs security checks at runtime,
-305             but set to not exported to explicitly avoid allowing another app to call it.
-306        -->
-307        <service
-307-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:45:9-52:19
-308            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-308-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:46:13-82
-309            android:directBootAware="true"
-309-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:47:13-43
-310            android:exported="false" >
-310-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:48:13-37
-311            <intent-filter android:priority="-500" >
-311-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
-312                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-312-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
-312-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
-313            </intent-filter>
-314        </service>
-315        <service
-315-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/548c6571fc8dd255867d0405ad850a74/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:29:9-35:19
-316            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-316-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/548c6571fc8dd255867d0405ad850a74/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:30:13-103
-317            android:exported="false" >
-317-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/548c6571fc8dd255867d0405ad850a74/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:31:13-37
-318            <meta-data
-318-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/548c6571fc8dd255867d0405ad850a74/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:32:13-34:39
-319                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-319-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/548c6571fc8dd255867d0405ad850a74/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:33:17-94
-320                android:value="cct" />
-320-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/548c6571fc8dd255867d0405ad850a74/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:34:17-36
-321        </service>
-322        <service
-322-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:26:9-30:19
-323            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-323-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:27:13-117
-324            android:exported="false"
-324-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:28:13-37
-325            android:permission="android.permission.BIND_JOB_SERVICE" >
-325-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:29:13-69
-326        </service>
-327
-328        <receiver
-328-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:32:9-34:40
-329            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-329-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:33:13-132
-330            android:exported="false" />
-330-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:34:13-37
-331
-332        <activity
-332-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:27:9-44:20
-333            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-333-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:28:13-80
-334            android:excludeFromRecents="true"
-334-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:29:13-46
-335            android:exported="true"
-335-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:30:13-36
-336            android:launchMode="singleTask"
-336-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:31:13-44
-337            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-337-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:32:13-72
-338            <intent-filter>
-338-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:33:13-43:29
-339                <action android:name="android.intent.action.VIEW" />
-339-->[:contacts_service] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
-339-->[:contacts_service] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:21-62
-340
-341                <category android:name="android.intent.category.DEFAULT" />
-341-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-76
-341-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:27-73
-342                <category android:name="android.intent.category.BROWSABLE" />
-342-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:37:17-78
-342-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:37:27-75
-343
-344                <data
-344-->[:file_picker] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
-345                    android:host="firebase.auth"
-346                    android:path="/"
-347                    android:scheme="genericidp" />
-348            </intent-filter>
-349        </activity>
-350        <activity
-350-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:45:9-62:20
-351            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-351-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:46:13-79
-352            android:excludeFromRecents="true"
-352-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:47:13-46
-353            android:exported="true"
-353-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:48:13-36
-354            android:launchMode="singleTask"
-354-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:49:13-44
-355            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-355-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:50:13-72
-356            <intent-filter>
-356-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:51:13-61:29
-357                <action android:name="android.intent.action.VIEW" />
-357-->[:contacts_service] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
-357-->[:contacts_service] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:21-62
-358
-359                <category android:name="android.intent.category.DEFAULT" />
-359-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-76
-359-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:27-73
-360                <category android:name="android.intent.category.BROWSABLE" />
-360-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:37:17-78
-360-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:37:27-75
-361
-362                <data
-362-->[:file_picker] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
-363                    android:host="firebase.auth"
-364                    android:path="/"
-365                    android:scheme="recaptcha" />
-366            </intent-filter>
-367        </activity>
-368
-369        <provider
-369-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
-370            android:name="com.google.firebase.provider.FirebaseInitProvider"
-370-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
-371            android:authorities="com.example.kite.firebaseinitprovider"
-371-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
-372            android:directBootAware="true"
-372-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
-373            android:exported="false"
-373-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
-374            android:initOrder="100" />
-374-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
-375
-376        <activity
-376-->[com.google.android.gms:play-services-base:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-377            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-377-->[com.google.android.gms:play-services-base:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-378            android:exported="false"
-378-->[com.google.android.gms:play-services-base:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-379            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-379-->[com.google.android.gms:play-services-base:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-380
-381        <meta-data
-381-->[com.google.android.gms:play-services-basement:18.0.0] /home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
-382            android:name="com.google.android.gms.version"
-382-->[com.google.android.gms:play-services-basement:18.0.0] /home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
-383            android:value="@integer/google_play_services_version" />
-383-->[com.google.android.gms:play-services-basement:18.0.0] /home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
-384
-385        <provider
-385-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-386            android:name="androidx.startup.InitializationProvider"
-386-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-387            android:authorities="com.example.kite.androidx-startup"
-387-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-388            android:exported="false" >
-388-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
-389            <meta-data
-389-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-390                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-390-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-391                android:value="androidx.startup" />
-391-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-392            <meta-data
-392-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/falcon_codes/.gradle/caches/transforms-3/3c3437e5f0d3647dbda0ebf68e3cbbc9/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-393                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-393-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/falcon_codes/.gradle/caches/transforms-3/3c3437e5f0d3647dbda0ebf68e3cbbc9/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-394                android:value="androidx.startup" />
-394-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/falcon_codes/.gradle/caches/transforms-3/3c3437e5f0d3647dbda0ebf68e3cbbc9/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-395        </provider>
-396
-397        <activity
-397-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
-398            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-398-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
-399            android:clearTaskOnLaunch="true"
-399-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
-400            android:screenOrientation="sensorLandscape"
-400-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
-401            android:stateNotNeeded="true"
-401-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
-402            android:theme="@style/zxing_CaptureTheme"
-402-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
-403            android:windowSoftInputMode="stateAlwaysHidden" />
-403-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
-404    </application>
-405
-406</manifest>
+268-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+269            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.ScheduledNotificationReceiver"
+269-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-121
+270            android:exported="false" />
+270-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+271        <receiver
+271-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+272            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.KeepOnTopActionReceiver"
+272-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-115
+273            android:exported="false" />
+273-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+274        <receiver
+274-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-35:20
+275            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.RefreshSchedulesReceiver"
+275-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-116
+276            android:exported="false" >
+276-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+277            <intent-filter>
+277-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-34:29
+278                <category android:name="android.intent.category.DEFAULT" />
+278-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-76
+278-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:27-73
+279
+280                <action android:name="android.intent.action.BOOT_COMPLETED" />
+280-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-79
+280-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-76
+281                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+281-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-86
+281-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-83
+282                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+282-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-84
+282-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-81
+283                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+283-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-82
+283-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-79
+284                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+284-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-82
+284-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-79
+285                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+285-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-107
+285-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-104
+286            </intent-filter>
+287        </receiver>
+288
+289        <activity
+289-->[:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+290            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+290-->[:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+291            android:exported="false"
+291-->[:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+292            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+292-->[:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+293
+294        <uses-library
+294-->[androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+295            android:name="androidx.window.extensions"
+295-->[androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+296            android:required="false" />
+296-->[androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+297        <uses-library
+297-->[androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+298            android:name="androidx.window.sidecar"
+298-->[androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+299            android:required="false" />
+299-->[androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+300
+301        <receiver
+301-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:32:9-39:20
+302            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+302-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:33:13-78
+303            android:exported="true"
+303-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:34:13-36
+304            android:permission="com.google.android.c2dm.permission.SEND" >
+304-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:35:13-73
+305            <intent-filter>
+305-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+306                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+306-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+306-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+307            </intent-filter>
+308        </receiver>
+309        <!--
+310             FirebaseMessagingService performs security checks at runtime,
+311             but set to not exported to explicitly avoid allowing another app to call it.
+312        -->
+313        <service
+313-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:45:9-52:19
+314            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+314-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:46:13-82
+315            android:directBootAware="true"
+315-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:47:13-43
+316            android:exported="false" >
+316-->[com.google.firebase:firebase-messaging:23.0.7] /home/falcon_codes/.gradle/caches/transforms-3/04d2acf140f8eae8b1f57e5db7b8b57a/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:48:13-37
+317            <intent-filter android:priority="-500" >
+317-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+318                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+318-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+318-->[:firebase_messaging] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+319            </intent-filter>
+320        </service>
+321        <service
+321-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/548c6571fc8dd255867d0405ad850a74/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:29:9-35:19
+322            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+322-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/548c6571fc8dd255867d0405ad850a74/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:30:13-103
+323            android:exported="false" >
+323-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/548c6571fc8dd255867d0405ad850a74/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:31:13-37
+324            <meta-data
+324-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/548c6571fc8dd255867d0405ad850a74/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:32:13-34:39
+325                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+325-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/548c6571fc8dd255867d0405ad850a74/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:33:17-94
+326                android:value="cct" />
+326-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/548c6571fc8dd255867d0405ad850a74/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:34:17-36
+327        </service>
+328        <service
+328-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:26:9-30:19
+329            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+329-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:27:13-117
+330            android:exported="false"
+330-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:28:13-37
+331            android:permission="android.permission.BIND_JOB_SERVICE" >
+331-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:29:13-69
+332        </service>
+333
+334        <receiver
+334-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:32:9-34:40
+335            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+335-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:33:13-132
+336            android:exported="false" />
+336-->[com.google.android.datatransport:transport-runtime:3.1.6] /home/falcon_codes/.gradle/caches/transforms-3/75009999996c812e9cfa8efa30be9fcd/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:34:13-37
+337
+338        <activity
+338-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:27:9-44:20
+339            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+339-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:28:13-80
+340            android:excludeFromRecents="true"
+340-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:29:13-46
+341            android:exported="true"
+341-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:30:13-36
+342            android:launchMode="singleTask"
+342-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:31:13-44
+343            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+343-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:32:13-72
+344            <intent-filter>
+344-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:33:13-43:29
+345                <action android:name="android.intent.action.VIEW" />
+345-->[:contacts_service] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
+345-->[:contacts_service] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:21-62
+346
+347                <category android:name="android.intent.category.DEFAULT" />
+347-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-76
+347-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:27-73
+348                <category android:name="android.intent.category.BROWSABLE" />
+348-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:37:17-78
+348-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:37:27-75
+349
+350                <data
+350-->[:file_picker] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+351                    android:host="firebase.auth"
+352                    android:path="/"
+353                    android:scheme="genericidp" />
+354            </intent-filter>
+355        </activity>
+356        <activity
+356-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:45:9-62:20
+357            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+357-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:46:13-79
+358            android:excludeFromRecents="true"
+358-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:47:13-46
+359            android:exported="true"
+359-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:48:13-36
+360            android:launchMode="singleTask"
+360-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:49:13-44
+361            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+361-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:50:13-72
+362            <intent-filter>
+362-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:51:13-61:29
+363                <action android:name="android.intent.action.VIEW" />
+363-->[:contacts_service] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
+363-->[:contacts_service] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:21-62
+364
+365                <category android:name="android.intent.category.DEFAULT" />
+365-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-76
+365-->[:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:27-73
+366                <category android:name="android.intent.category.BROWSABLE" />
+366-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:37:17-78
+366-->[com.google.firebase:firebase-auth:21.0.7] /home/falcon_codes/.gradle/caches/transforms-3/a9ad148ae3cead617605719c924eca4b/transformed/jetified-firebase-auth-21.0.7/AndroidManifest.xml:37:27-75
+367
+368                <data
+368-->[:file_picker] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+369                    android:host="firebase.auth"
+370                    android:path="/"
+371                    android:scheme="recaptcha" />
+372            </intent-filter>
+373        </activity>
+374
+375        <provider
+375-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+376            android:name="com.google.firebase.provider.FirebaseInitProvider"
+376-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+377            android:authorities="com.example.kite.firebaseinitprovider"
+377-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+378            android:directBootAware="true"
+378-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+379            android:exported="false"
+379-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+380            android:initOrder="100" />
+380-->[com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+381
+382        <activity
+382-->[com.google.android.gms:play-services-base:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+383            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+383-->[com.google.android.gms:play-services-base:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+384            android:exported="false"
+384-->[com.google.android.gms:play-services-base:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+385            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+385-->[com.google.android.gms:play-services-base:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+386
+387        <meta-data
+387-->[com.google.android.gms:play-services-basement:18.0.0] /home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+388            android:name="com.google.android.gms.version"
+388-->[com.google.android.gms:play-services-basement:18.0.0] /home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+389            android:value="@integer/google_play_services_version" />
+389-->[com.google.android.gms:play-services-basement:18.0.0] /home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+390
+391        <provider
+391-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+392            android:name="androidx.startup.InitializationProvider"
+392-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+393            android:authorities="com.example.kite.androidx-startup"
+393-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+394            android:exported="false" >
+394-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+395            <meta-data
+395-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+396                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+396-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+397                android:value="androidx.startup" />
+397-->[androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+398            <meta-data
+398-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/falcon_codes/.gradle/caches/transforms-3/3c3437e5f0d3647dbda0ebf68e3cbbc9/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+399                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+399-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/falcon_codes/.gradle/caches/transforms-3/3c3437e5f0d3647dbda0ebf68e3cbbc9/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+400                android:value="androidx.startup" />
+400-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/falcon_codes/.gradle/caches/transforms-3/3c3437e5f0d3647dbda0ebf68e3cbbc9/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+401        </provider>
+402
+403        <activity
+403-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+404            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+404-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+405            android:clearTaskOnLaunch="true"
+405-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+406            android:screenOrientation="sensorLandscape"
+406-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+407            android:stateNotNeeded="true"
+407-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+408            android:theme="@style/zxing_CaptureTheme"
+408-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+409            android:windowSoftInputMode="stateAlwaysHidden" />
+409-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/falcon_codes/.gradle/caches/transforms-3/2afcaedbf14af2c5a0b8f1b892232ff0/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+410    </application>
+411
+412</manifest>

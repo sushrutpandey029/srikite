@@ -283,7 +283,7 @@ class _ProfilePageState extends State<ProfilePage> {
   bool isBioChanged = false;
   bool isImageChanged = false;
   bool isNumberChanged = false;
-
+  bool isProcessing = false;
   Future<void> _setProfilePicture(bool isCamera) async {
     ImagePicker picker = ImagePicker();
     XFile? xFile = isCamera
@@ -490,21 +490,21 @@ class _ProfilePageState extends State<ProfilePage> {
                   child: TextField(
                     readOnly: true,
                     controller: _number,
-                    decoration: const InputDecoration(
-                      border: UnderlineInputBorder(
+                    decoration: InputDecoration(
+                      border: const UnderlineInputBorder(
                           borderSide:
                               BorderSide(color: Colors.black, width: 2)),
-                      enabledBorder: UnderlineInputBorder(
+                      enabledBorder: const UnderlineInputBorder(
                           borderSide:
                               BorderSide(color: Colors.black, width: 2)),
                       labelText: 'Number:',
-                      // suffixIcon: IconButton(
-                      //   icon: const Icon(Icons.edit),
-                      //   tooltip: 'Update user bio',
-                      //   onPressed: () {
-                      //     showNumberDialog();
-                      //   },
-                      // ),
+                      suffixIcon: IconButton(
+                        icon: const Icon(Icons.edit),
+                        tooltip: 'Update user bio',
+                        onPressed: () {
+                          showNumberDialog();
+                        },
+                      ),
                     ),
                   ),
                 ),
@@ -552,11 +552,11 @@ class _ProfilePageState extends State<ProfilePage> {
                       bottom: MediaQuery.of(context).viewInsets.bottom),
                   child: TextButton(
                     child: const Text(
-                      'update',
+                      'Update',
                       style: TextStyle(color: Colors.blue),
                     ),
-                    onPressed: () {
-                      context.read<UpdateProfileProvider>().updateProfile(
+                    onPressed: () async {
+                      await context.read<UpdateProfileProvider>().updateProfile(
                             context,
                             userId:
                                 context.read<AuthProvider>().authUserModel!.id,
@@ -577,6 +577,8 @@ class _ProfilePageState extends State<ProfilePage> {
                       if (isNumberChanged) {
                         isNumberChanged = false;
                       }
+
+                      Navigator.of(context).pop();
                     },
                   ),
                 ),
@@ -649,11 +651,11 @@ class _ProfilePageState extends State<ProfilePage> {
                       bottom: MediaQuery.of(context).viewInsets.bottom),
                   child: TextButton(
                     child: const Text(
-                      'update',
+                      'Update',
                       style: TextStyle(color: Colors.blue),
                     ),
-                    onPressed: () {
-                      context.read<UpdateProfileProvider>().updateProfile(
+                    onPressed: () async {
+                      await context.read<UpdateProfileProvider>().updateProfile(
                             context,
                             userId:
                                 context.read<AuthProvider>().authUserModel!.id,
@@ -674,6 +676,7 @@ class _ProfilePageState extends State<ProfilePage> {
                       if (isNumberChanged) {
                         isNumberChanged = false;
                       }
+                      Navigator.of(context).pop();
                     },
                   ),
                 ),
@@ -728,9 +731,9 @@ class _ProfilePageState extends State<ProfilePage> {
           ),
           actions: <Widget>[
             TextButton(
-              child: const Text('update'),
-              onPressed: () {
-                context.read<UpdateProfileProvider>().updateProfile(
+              child: const Text('Update'),
+              onPressed: () async {
+                await context.read<UpdateProfileProvider>().updateProfile(
                       context,
                       userId: context.read<AuthProvider>().authUserModel!.id,
                       userName: isNameChanged ? _userName.text : null,
@@ -750,6 +753,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 if (isNumberChanged) {
                   isNumberChanged = false;
                 }
+                Navigator.of(context).pop();
               },
             ),
             TextButton(

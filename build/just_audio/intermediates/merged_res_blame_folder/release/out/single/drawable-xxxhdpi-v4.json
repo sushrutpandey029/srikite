@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/just_audio/intermediates/merged_res/release/drawable-xxxhdpi-v4/media_session_service_notification_ic_music_note.png",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/res/drawable-xxxhdpi-v4/media_session_service_notification_ic_music_note.png"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/just_audio/intermediates/merged_res/release/drawable-xxxhdpi-v4/media_session_service_notification_ic_skip_to_next.png",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/res/drawable-xxxhdpi-v4/media_session_service_notification_ic_skip_to_next.png"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/just_audio/intermediates/merged_res/release/drawable-xxxhdpi-v4/media_session_service_notification_ic_skip_to_previous.png",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/res/drawable-xxxhdpi-v4/media_session_service_notification_ic_skip_to_previous.png"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/just_audio/intermediates/merged_res/release/drawable-xxxhdpi-v4/media_session_service_notification_ic_pause.png",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/res/drawable-xxxhdpi-v4/media_session_service_notification_ic_pause.png"
+    },
+    {
+        "merged": "/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/just_audio/intermediates/merged_res/release/drawable-xxxhdpi-v4/media_session_service_notification_ic_play.png",
+        "source": "/home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/res/drawable-xxxhdpi-v4/media_session_service_notification_ic_play.png"
+    }
+]
