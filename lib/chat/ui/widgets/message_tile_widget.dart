@@ -25,8 +25,11 @@ class MessageTileWidget extends StatelessWidget {
     if (type == "image") {
       return GestureDetector(
         onTap: () {
-          Navigator.push(context,
-              MaterialPageRoute(builder: (context) => const ImageView()));
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      ImageView(imgUrl: '$imgMsgUrl/$message')));
         },
         child: ClipRRect(
           borderRadius: BorderRadius.circular(14.sp),

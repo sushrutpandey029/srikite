@@ -24,14 +24,24 @@ class _PlayVoiceMsgState extends State<PlayVoiceMsg> {
   Future<void> _init() async {}
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      trailing: IconButton(
-          onPressed: () {
-            print(audioMsgUrl);
-            // player.play();
-          },
-          icon: const Icon(Icons.play_arrow)),
-      title: const Text("Voice msg"),
+    return Row(
+      children: [
+        IconButton(
+            onPressed: () {
+              print(audioMsgUrl);
+              // player.play();
+            },
+            icon: const Icon(Icons.play_arrow)),
+        Expanded(
+          child: Slider(
+            value: 0,
+            onChanged: (value) {},
+          ),
+        ),
+        const CircleAvatar(
+          radius: 20,
+        )
+      ],
     );
   }
 }

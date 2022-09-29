@@ -406,7 +406,7 @@ class _ChatScreenState extends State<ChatScreen> {
                                   minLines: 1,
                                   controller: _messageController,
                                   decoration: const InputDecoration(
-                                      hintText: 'Start Typing...',
+                                      hintText: 'Message',
                                       border: InputBorder.none,
                                       focusedBorder: InputBorder.none),
                                 ),
@@ -419,57 +419,61 @@ class _ChatScreenState extends State<ChatScreen> {
                             },
                             icon: const Icon(Icons.attach_file)),
                         if (!haveText)
-                          IconButton(
-                            onPressed: () async {
-                              if (recorder.isRecording) {
-                                String audioFile = await stop();
-                                if (audioFile != "") {
-                                  AuthUserModel userModel = context
-                                      .read<AuthProvider>()
-                                      .authUserModel!;
-                                  value.sendAudio(
-                                      SendChatModel(
-                                        userSenderId: userModel.id,
-                                        userSenderName: userModel.userName,
-                                        userSenderNumber:
-                                            userModel.userPhoneNumber,
-                                        userSenderRegNo: userModel.userRegNo,
-                                        userReceiverId:
-                                            value.selectedUser!.userId,
-                                        userReceiverName:
-                                            value.selectedUser!.userName,
-                                        userReceiverRegNo:
-                                            value.selectedUser!.userRegNo,
-                                        userReceiverNumber:
-                                            value.selectedUser!.userPhoneNo,
-                                        textMasseg: _messageController.text,
-                                        emojiMessage: "",
-                                        imageMessage: '',
-                                        fileMessage: '',
-                                        audioMessage: audioFile,
-                                      ),
-                                      context);
-                                }
-                              } else {
-                                await record();
-                              }
-
-                              print(audio);
-
-                              setState(() {
-                                // recorder.isRecording = false;
-                              });
-                            },
-                            icon: Icon(
-                                recorder.isRecording ? Icons.stop : Icons.mic),
-                          ),
-                        if (!haveText)
-                          IconButton(
-                              onPressed: () {},
-                              icon: const Icon(Icons.camera_alt_outlined)),
+                          if (!haveText)
+                            IconButton(
+                                onPressed: () async {
+                                  final res = ImagePicker()
+                                      .pickImage(source: ImageSource.camera);
+                                },
+                                icon: const Icon(Icons.camera_alt_outlined)),
                       ],
                     ),
                   ),
+                  if (!haveText)
+                    CircleAvatar(
+                      radius: 20.sp,
+                      child: IconButton(
+                        onPressed: () async {
+                          if (recorder.isRecording) {
+                            String audioFile = await stop();
+                            if (audioFile != "") {
+                              AuthUserModel userModel =
+                                  context.read<AuthProvider>().authUserModel!;
+                              value.sendAudio(
+                                  SendChatModel(
+                                    userSenderId: userModel.id,
+                                    userSenderName: userModel.userName,
+                                    userSenderNumber: userModel.userPhoneNumber,
+                                    userSenderRegNo: userModel.userRegNo,
+                                    userReceiverId: value.selectedUser!.userId,
+                                    userReceiverName:
+                                        value.selectedUser!.userName,
+                                    userReceiverRegNo:
+                                        value.selectedUser!.userRegNo,
+                                    userReceiverNumber:
+                                        value.selectedUser!.userPhoneNo,
+                                    textMasseg: _messageController.text,
+                                    emojiMessage: "",
+                                    imageMessage: '',
+                                    fileMessage: '',
+                                    audioMessage: audioFile,
+                                  ),
+                                  context);
+                            }
+                          } else {
+                            await record();
+                          }
+
+                          print(audio);
+
+                          setState(() {
+                            // recorder.isRecording = false;
+                          });
+                        },
+                        icon:
+                            Icon(recorder.isRecording ? Icons.stop : Icons.mic),
+                      ),
+                    ),
                   if (haveText)
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
