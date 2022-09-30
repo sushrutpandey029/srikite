@@ -53,6 +53,10 @@ MERGED from [com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gra
 MERGED from [com.google.firebase:firebase-common:20.1.1] /home/falcon_codes/.gradle/caches/transforms-3/54db91ed847c8b5c1638552289ed5c02/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
 MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/falcon_codes/.gradle/caches/transforms-3/13fa11e88448514f8cc2c084a8d2c7fc/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:15:5-16:19
 MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/falcon_codes/.gradle/caches/transforms-3/13fa11e88448514f8cc2c084a8d2c7fc/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:15:5-16:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/falcon_codes/.gradle/caches/transforms-3/5e4683d44834911f969169750fc10b6e/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/falcon_codes/.gradle/caches/transforms-3/5e4683d44834911f969169750fc10b6e/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4eef5c53c78812d37516d2ccb0db9e2a/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4eef5c53c78812d37516d2ccb0db9e2a/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
@@ -65,6 +69,8 @@ MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/falcon_cod
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/falcon_codes/.gradle/caches/transforms-3/f344e5dcd9c47a856f089acfbd65e039/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4de22f44ced600f5fe97fc171f4dee9d/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4de22f44ced600f5fe97fc171f4dee9d/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/falcon_codes/.gradle/caches/transforms-3/9fd31ba4fe976ac18733b6069b43eb84/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/falcon_codes/.gradle/caches/transforms-3/9fd31ba4fe976ac18733b6069b43eb84/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4ed283364ec25889da36d0574f6a30f6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
@@ -99,6 +105,7 @@ MERGED from [:cloud_firestore] /home/falcon_codes/prathamesh/app_dev/flutter_pro
 MERGED from [:cloud_functions] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/cloud_functions/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_auth] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_core] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:fluttercontactpicker] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/fluttercontactpicker/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:file_picker] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-19:12
 MERGED from [:path_provider_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:qr_code_scanner] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/qr_code_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
@@ -112,14 +119,18 @@ MERGED from [:contacts_service] /home/falcon_codes/prathamesh/app_dev/flutter_pr
 MERGED from [:flutter_sound] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_sound/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
 MERGED from [:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:google_maps_flutter_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_plugin_android_lifecycle] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-38:12
 MERGED from [:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-16:12
 MERGED from [:webview_flutter_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/webview_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:permission_handler_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:google_api_headers] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/google_api_headers/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:package_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:device_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/device_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:emoji_picker_flutter] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/emoji_picker_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:audio_session] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:location] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/6ac8fe00318eac3846ce169222ce2b77/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/falcon_codes/.gradle/caches/transforms-3/981e9f56578abd1a82f4cde37f09e724/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -153,6 +164,8 @@ MERGED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/ca
 MERGED from [androidx.media2:media2-common:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/e03c4dfa2730ebae56d2a40463ce8cb9/transformed/jetified-media2-common-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.webkit:webkit:1.5.0] /home/falcon_codes/.gradle/caches/transforms-3/75bda56e94a88596b5a3e98f1fd2e412/transformed/webkit-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/falcon_codes/.gradle/caches/transforms-3/5e4683d44834911f969169750fc10b6e/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/407e0e389525b15c3e58f2e18a57bb01/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/falcon_codes/.gradle/caches/transforms-3/731aeb845b53b67f7489925c09832239/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4eef5c53c78812d37516d2ccb0db9e2a/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
@@ -163,6 +176,7 @@ MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /home/fa
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/f461cb5a4ca1c26a97c340cd563addeb/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/falcon_codes/.gradle/caches/transforms-3/f344e5dcd9c47a856f089acfbd65e039/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4de22f44ced600f5fe97fc171f4dee9d/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/falcon_codes/.gradle/caches/transforms-3/9fd31ba4fe976ac18733b6069b43eb84/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.3.6] /home/falcon_codes/.gradle/caches/transforms-3/02cfc7d6c62a9aad1b51bae039ffa535/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] /home/falcon_codes/.gradle/caches/transforms-3/ef9e646ca754c9c6315b3e4ef566afa6/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
@@ -247,12 +261,16 @@ MERGED from [com.google.firebase:firebase-database:20.0.5] /home/falcon_codes/.g
 MERGED from [com.google.firebase:firebase-database:20.0.5] /home/falcon_codes/.gradle/caches/transforms-3/45585500f263f2eaeab4eba4ffd7b516/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/e86ee8f548074efea5a98e64936ec817/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/e86ee8f548074efea5a98e64936ec817/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/0e8b9b472468aa4cffb8fab158aca920/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/0e8b9b472468aa4cffb8fab158aca920/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
 	android:name
 		ADDED from /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:3:22-64
 uses-permission#android.permission.READ_CONTACTS
 ADDED from /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:4:5-72
+MERGED from [:fluttercontactpicker] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/fluttercontactpicker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-72
+MERGED from [:fluttercontactpicker] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/fluttercontactpicker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-72
 	android:name
 		ADDED from /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android/app/src/main/AndroidManifest.xml:4:22-69
 uses-permission#android.permission.WRITE_CONTACTS
@@ -303,6 +321,8 @@ MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/falcon_cod
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/e86ee8f548074efea5a98e64936ec817/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/24bd4b0f5325524118332d03c42bfa9f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/24bd4b0f5325524118332d03c42bfa9f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/0e8b9b472468aa4cffb8fab158aca920/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/falcon_codes/.gradle/caches/transforms-3/0e8b9b472468aa4cffb8fab158aca920/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /home/falcon_codes/.gradle/caches/transforms-3/511b743113487d18459f383b92dd4b6d/transformed/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:24:5-79
@@ -339,6 +359,8 @@ MERGED from [:firebase_auth] /home/falcon_codes/prathamesh/app_dev/flutter_proje
 MERGED from [:firebase_auth] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttercontactpicker] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/fluttercontactpicker/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttercontactpicker] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/fluttercontactpicker/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:file_picker] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:file_picker] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
@@ -365,6 +387,8 @@ MERGED from [:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutte
 MERGED from [:image_picker_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:wc_flutter_share] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/wc_flutter_share/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
@@ -375,12 +399,18 @@ MERGED from [:webview_flutter_android] /home/falcon_codes/prathamesh/app_dev/flu
 MERGED from [:webview_flutter_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/webview_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:permission_handler_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:permission_handler_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_api_headers] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/google_api_headers/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_api_headers] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/google_api_headers/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:device_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/device_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:device_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/device_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:emoji_picker_flutter] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/emoji_picker_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:emoji_picker_flutter] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/emoji_picker_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:audio_session] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:audio_session] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:location] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:location] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/6ac8fe00318eac3846ce169222ce2b77/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/6ac8fe00318eac3846ce169222ce2b77/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
@@ -447,6 +477,10 @@ MERGED from [androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/trans
 MERGED from [androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.webkit:webkit:1.5.0] /home/falcon_codes/.gradle/caches/transforms-3/75bda56e94a88596b5a3e98f1fd2e412/transformed/webkit-1.5.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.webkit:webkit:1.5.0] /home/falcon_codes/.gradle/caches/transforms-3/75bda56e94a88596b5a3e98f1fd2e412/transformed/webkit-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/falcon_codes/.gradle/caches/transforms-3/5e4683d44834911f969169750fc10b6e/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/falcon_codes/.gradle/caches/transforms-3/5e4683d44834911f969169750fc10b6e/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/407e0e389525b15c3e58f2e18a57bb01/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/407e0e389525b15c3e58f2e18a57bb01/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/falcon_codes/.gradle/caches/transforms-3/731aeb845b53b67f7489925c09832239/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
@@ -467,6 +501,8 @@ MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/falcon_cod
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/falcon_codes/.gradle/caches/transforms-3/f344e5dcd9c47a856f089acfbd65e039/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4de22f44ced600f5fe97fc171f4dee9d/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/falcon_codes/.gradle/caches/transforms-3/4de22f44ced600f5fe97fc171f4dee9d/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/falcon_codes/.gradle/caches/transforms-3/9fd31ba4fe976ac18733b6069b43eb84/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/falcon_codes/.gradle/caches/transforms-3/9fd31ba4fe976ac18733b6069b43eb84/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.3.6] /home/falcon_codes/.gradle/caches/transforms-3/02cfc7d6c62a9aad1b51bae039ffa535/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
@@ -765,6 +801,8 @@ MERGED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/ca
 MERGED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:24:5-34:15
 MERGED from [androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
 MERGED from [androidx.media:media:1.4.1] /home/falcon_codes/.gradle/caches/transforms-3/52cd61c1c23618e718c55be879609a8e/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
 intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
 ADDED from [:file_picker] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
 action#android.intent.action.GET_CONTENT
@@ -949,6 +987,14 @@ ADDED from [:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter
 		ADDED from [:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
 	android:name
 		ADDED from [:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:location] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:location] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:location] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:location] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-76
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] /home/falcon_codes/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 	android:required
@@ -1135,6 +1181,22 @@ action#androidx.media2.session.MediaLibraryService
 ADDED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:13-82
 	android:name
 		ADDED from [androidx.media2:media2-session:1.2.0] /home/falcon_codes/.gradle/caches/transforms-3/66d8a646d6483860064422ff083d4c36/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:21-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
 	android:exported

@@ -1121,10 +1121,10 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlin"
     artifactId: "kotlin-stdlib-jdk8"
-    version: "1.5.30"
+    version: "1.6.10"
   }
   digests {
-    sha256: "\263\254\240S\234X2b#\260}\307\300\254y\265\250u\272\200\313\221\356\026\t\354\211\2737\270\231\016"
+    sha256: "\024V\330-\003\236\243\r\204\205\2602\220\037R\273\360~|\333\350\273\037\207\b\2552\250WLA\316"
   }
   repo_index {
     value: 1
@@ -1669,6 +1669,42 @@ library {
 }
 library {
   maven_library {
+    groupId: "com.google.android.gms"
+    artifactId: "play-services-maps"
+    version: "18.1.0"
+  }
+  digests {
+    sha256: "\213\200\001\0351\222\305\205\3028\237\2428\216dN,\236\220i:\300\321\026=\213\304\330\306\265\372\210"
+  }
+  repo_index {
+  }
+}
+library {
+  maven_library {
+    groupId: "com.google.android.gms"
+    artifactId: "play-services-location"
+    version: "16.0.0"
+  }
+  digests {
+    sha256: "$\n\017\313\236\216XXn8\352C\266\234\t\355n\211\352\232\fiw\vv4\330\035\253\365\363\240"
+  }
+  repo_index {
+  }
+}
+library {
+  maven_library {
+    groupId: "com.google.android.gms"
+    artifactId: "play-services-places-placereport"
+    version: "16.0.0"
+  }
+  digests {
+    sha256: "\004\370\272\353\037\217\212sL}K\027\001\243\227B\201\264U\221\257\372~\226;Y\335\001\233\212\274n"
+  }
+  repo_index {
+  }
+}
+library {
+  maven_library {
     groupId: "androidx.multidex"
     artifactId: "multidex"
     version: "2.0.0"
@@ -1720,7 +1756,7 @@ library {
 }
 library {
   digests {
-    sha256: "\223\346\203\026+\b\346 \034\352\3677\313\346pK$\343\323\231\353^\237\210\245\301\350\177\335u\251P"
+    sha256: "\303\231\254}\200d\021b\332?\263(7\270\223z\f\017\002\357\027ubg\377\337(\2143\222\335\026"
   }
 }
 library_dependencies {
@@ -2481,17 +2517,35 @@ library_dependencies {
   library_dep_index: 12
   library_dep_index: 4
 }
+library_dependencies {
+  library_index: 136
+  library_dep_index: 18
+  library_dep_index: 33
+  library_dep_index: 2
+}
+library_dependencies {
+  library_index: 137
+  library_dep_index: 33
+  library_dep_index: 2
+  library_dep_index: 138
+  library_dep_index: 29
+}
+library_dependencies {
+  library_index: 138
+  library_dep_index: 2
+}
 module_dependencies {
   module_name: "base"
   dependency_index: 92
   dependency_index: 0
-  dependency_index: 136
-  dependency_index: 137
-  dependency_index: 138
   dependency_index: 139
+  dependency_index: 140
+  dependency_index: 141
+  dependency_index: 142
   dependency_index: 1
   dependency_index: 4
   dependency_index: 87
+  dependency_index: 91
   dependency_index: 32
   dependency_index: 8
   dependency_index: 12
@@ -2526,10 +2580,13 @@ module_dependencies {
   dependency_index: 133
   dependency_index: 103
   dependency_index: 134
+  dependency_index: 136
   dependency_index: 57
   dependency_index: 79
   dependency_index: 82
-  dependency_index: 140
+  dependency_index: 5
+  dependency_index: 137
+  dependency_index: 143
 }
 repositories {
   maven_repo {
@@ -2703,6 +2760,11 @@ repositories {
 }
 repositories {
   maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
     url: "https://repo.maven.apache.org/maven2/"
   }
 }
@@ -2714,6 +2776,46 @@ repositories {
 repositories {
   maven_repo {
     url: "https://repo.maven.apache.org/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://jcenter.bintray.com/"
   }
 }
 repositories {

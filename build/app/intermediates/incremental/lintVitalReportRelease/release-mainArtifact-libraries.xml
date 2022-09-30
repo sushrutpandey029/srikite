@@ -82,6 +82,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:fluttercontactpicker::release"
+      jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/fluttercontactpicker/.transforms/68753192c81b560e172b65f19aa671fb/transformed/out/jars/classes.jar"
+      resolved="me.schlaubi.fluttercontactpicker:fluttercontactpicker:unspecified"
+      folder="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/fluttercontactpicker/.transforms/68753192c81b560e172b65f19aa671fb/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:file_picker::release"
       jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/file_picker/.transforms/c3e2e656493978591f5f9d1407d111c2/transformed/out/jars/classes.jar"
       resolved="com.mr.flutter.plugin.filepicker:file_picker:unspecified"
@@ -290,6 +303,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:google_maps_flutter_android::release"
+      jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/google_maps_flutter_android/.transforms/c2d5d375a266e204a495934ffa0de9d8/transformed/out/jars/classes.jar"
+      resolved="io.flutter.plugins.googlemaps:google_maps_flutter_android:unspecified"
+      folder="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/google_maps_flutter_android/.transforms/c2d5d375a266e204a495934ffa0de9d8/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:webview_flutter_android::release"
       jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/webview_flutter_android/.transforms/e4cf189444150dcf82923a10c92526d5/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.webviewflutter:webview_flutter_android:unspecified"
@@ -307,6 +333,19 @@
       jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/permission_handler_android/.transforms/b3470eab25e5442261b39921345faf34/transformed/out/jars/classes.jar"
       resolved="com.baseflow.permissionhandler:permission_handler_android:unspecified"
       folder="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/permission_handler_android/.transforms/b3470eab25e5442261b39921345faf34/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:package_info_plus::release"
+      jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/package_info_plus/.transforms/87642f45f29acee112e9e93da3b7d399/transformed/out/jars/classes.jar"
+      resolved="io.flutter.plugins.packageinfo:package_info_plus:unspecified"
+      folder="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/package_info_plus/.transforms/87642f45f29acee112e9e93da3b7d399/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -342,10 +381,36 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:google_api_headers::release"
+      jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/google_api_headers/.transforms/0bc096a2c193ac202735cb26d6e17eaa/transformed/out/jars/classes.jar"
+      resolved="io.github.zeshuaro.google_api_headers:google_api_headers:unspecified"
+      folder="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/google_api_headers/.transforms/0bc096a2c193ac202735cb26d6e17eaa/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:audio_session::release"
       jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audio_session/.transforms/5d9cc86f06ac3978e292d68cd286799a/transformed/out/jars/classes.jar"
       resolved="com.ryanheise.audio_session:audio_session:unspecified"
       folder="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audio_session/.transforms/5d9cc86f06ac3978e292d68cd286799a/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/android@@:location::release"
+      jars="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/location/.transforms/0ccf62e59c36f36293ce52ead7c0c094/transformed/out/jars/classes.jar"
+      resolved="com.lyokone.location:location:unspecified"
+      folder="/home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/location/.transforms/0ccf62e59c36f36293ce52ead7c0c094/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -393,9 +458,9 @@
       jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.5.2/f4cc07a50437659e0043e7da762809a46932b6a0/kotlinx-coroutines-core-jvm-1.5.2.jar"
       resolved="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2"/>
   <library
-      name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30@jar"
-      jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.30/5fd47535cc85f9e24996f939c2de6583991481b0/kotlin-stdlib-jdk8-1.5.30.jar"
-      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"/>
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10@jar"
+      jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.6.10/e80fe6ac3c3573a80305f5ec43f86b829e8ab53d/kotlin-stdlib-jdk8-1.6.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"/>
   <library
       name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar"
       jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.7.10/1ef73fee66f45d52c67e2aca12fd945dbe0659bf/kotlin-stdlib-jdk7-1.7.10.jar"
@@ -425,6 +490,71 @@
       name="io.flutter:x86_64_release:1.0.0-a4ff2c53d84ca78702bc3be6c7ef0788ffca01d3@jar"
       jars="/home/falcon_codes/.gradle/caches/modules-2/files-2.1/io.flutter/x86_64_release/1.0.0-a4ff2c53d84ca78702bc3be6c7ef0788ffca01d3/a4d08761c962d313223af740b8ba48d5e6596e99/x86_64_release-1.0.0-a4ff2c53d84ca78702bc3be6c7ef0788ffca01d3.jar"
       resolved="io.flutter:x86_64_release:1.0.0-a4ff2c53d84ca78702bc3be6c7ef0788ffca01d3"/>
+  <library
+      name="com.google.android.gms:play-services-location:16.0.0@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/5e4683d44834911f969169750fc10b6e/transformed/jetified-play-services-location-16.0.0/jars/classes.jar"
+      resolved="com.google.android.gms:play-services-location:16.0.0"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/5e4683d44834911f969169750fc10b6e/transformed/jetified-play-services-location-16.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-base:18.0.1@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/jars/classes.jar"
+      resolved="com.google.android.gms:play-services-base:18.0.1"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-places-placereport:16.0.0@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/9fd31ba4fe976ac18733b6069b43eb84/transformed/jetified-play-services-places-placereport-16.0.0/jars/classes.jar"
+      resolved="com.google.android.gms:play-services-places-placereport:16.0.0"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/9fd31ba4fe976ac18733b6069b43eb84/transformed/jetified-play-services-places-placereport-16.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-tasks:18.0.1@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/f461cb5a4ca1c26a97c340cd563addeb/transformed/jetified-play-services-tasks-18.0.1/jars/classes.jar"
+      resolved="com.google.android.gms:play-services-tasks:18.0.1"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/f461cb5a4ca1c26a97c340cd563addeb/transformed/jetified-play-services-tasks-18.0.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-basement:18.0.0@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0/jars/classes.jar"
+      resolved="com.google.android.gms:play-services-basement:18.0.0"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
   <library
       name="androidx.fragment:fragment:1.3.6@aar"
       jars="/home/falcon_codes/.gradle/caches/transforms-3/02cfc7d6c62a9aad1b51bae039ffa535/transformed/fragment-1.3.6/jars/classes.jar"
@@ -1064,6 +1194,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="com.google.android.gms:play-services-maps:18.1.0@aar"
+      jars="/home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0/jars/classes.jar"
+      resolved="com.google.android.gms:play-services-maps:18.1.0"
+      folder="/home/falcon_codes/.gradle/caches/transforms-3/9189bd22cab23125dcf032791c702645/transformed/jetified-play-services-maps-18.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="com.google.firebase:firebase-database-collection:18.0.1@aar"
       jars="/home/falcon_codes/.gradle/caches/transforms-3/407e0e389525b15c3e58f2e18a57bb01/transformed/jetified-firebase-database-collection-18.0.1/jars/classes.jar"
       resolved="com.google.firebase:firebase-database-collection:18.0.1"
@@ -1094,19 +1237,6 @@
       jars="/home/falcon_codes/.gradle/caches/transforms-3/4eef5c53c78812d37516d2ccb0db9e2a/transformed/jetified-play-services-safetynet-17.0.0/jars/classes.jar"
       resolved="com.google.android.gms:play-services-safetynet:17.0.0"
       folder="/home/falcon_codes/.gradle/caches/transforms-3/4eef5c53c78812d37516d2ccb0db9e2a/transformed/jetified-play-services-safetynet-17.0.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.android.gms:play-services-base:18.0.1@aar"
-      jars="/home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/jars/classes.jar"
-      resolved="com.google.android.gms:play-services-base:18.0.1"
-      folder="/home/falcon_codes/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1155,19 +1285,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="com.google.android.gms:play-services-tasks:18.0.1@aar"
-      jars="/home/falcon_codes/.gradle/caches/transforms-3/f461cb5a4ca1c26a97c340cd563addeb/transformed/jetified-play-services-tasks-18.0.1/jars/classes.jar"
-      resolved="com.google.android.gms:play-services-tasks:18.0.1"
-      folder="/home/falcon_codes/.gradle/caches/transforms-3/f461cb5a4ca1c26a97c340cd563addeb/transformed/jetified-play-services-tasks-18.0.1"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="com.google.android.gms:play-services-stats:17.0.2@aar"
       jars="/home/falcon_codes/.gradle/caches/transforms-3/f344e5dcd9c47a856f089acfbd65e039/transformed/jetified-play-services-stats-17.0.2/jars/classes.jar"
       resolved="com.google.android.gms:play-services-stats:17.0.2"
@@ -1185,19 +1302,6 @@
       jars="/home/falcon_codes/.gradle/caches/transforms-3/4de22f44ced600f5fe97fc171f4dee9d/transformed/jetified-firebase-measurement-connector-19.0.0/jars/classes.jar"
       resolved="com.google.firebase:firebase-measurement-connector:19.0.0"
       folder="/home/falcon_codes/.gradle/caches/transforms-3/4de22f44ced600f5fe97fc171f4dee9d/transformed/jetified-firebase-measurement-connector-19.0.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.android.gms:play-services-basement:18.0.0@aar"
-      jars="/home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0/jars/classes.jar"
-      resolved="com.google.android.gms:play-services-basement:18.0.0"
-      folder="/home/falcon_codes/.gradle/caches/transforms-3/b7b014eaecdd3b08e7612d6e7bb1b4cb/transformed/jetified-play-services-basement-18.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
