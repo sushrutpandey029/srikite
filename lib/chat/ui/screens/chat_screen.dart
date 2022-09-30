@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:audio_wave/audio_wave.dart';
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_emoji/flutter_emoji.dart';
 import 'package:fluttercontactpicker/fluttercontactpicker.dart';
@@ -19,7 +20,6 @@ import 'package:kite/chat/ui/widgets/message_tile_widget.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import '../../model/send_message_model.dart';
-import 'package:file_picker/file_picker.dart';
 
 class ChatScreen extends StatefulWidget {
   ChatScreen({Key? key, required this.isGroupChat}) : super(key: key);
@@ -65,8 +65,6 @@ class _ChatScreenState extends State<ChatScreen> {
       return '';
     }
     final path = await recorder.stopRecorder();
-    final audioFile = File(path!);
-    audio = path;
 
     print('recorded audio:$path');
     return audio;
@@ -327,13 +325,13 @@ class _ChatScreenState extends State<ChatScreen> {
                                                     userReceiverNumber: value
                                                         .selectedUser!
                                                         .userPhoneNo,
-                                                    textMasseg: '',
+                                                    textMasseg: phoneNumber!,
                                                     emojiMessage: "",
                                                     imageMessage: '',
                                                     fileMessage: '',
                                                     audioMessage: '',
                                                     location: '',
-                                                    contact: phoneNumber!);
+                                                    contact: '');
                                             await value.sendContact(
                                                 chatModel, context);
                                             setState(() {
@@ -370,27 +368,28 @@ class _ChatScreenState extends State<ChatScreen> {
                                             .read<AuthProvider>()
                                             .authUserModel!;
                                         SendChatModel chatModel = SendChatModel(
-                                            userSenderId: userModel.id,
-                                            userSenderName: userModel.userName,
-                                            userSenderNumber:
-                                                userModel.userPhoneNumber,
-                                            userSenderRegNo:
-                                                userModel.userRegNo,
-                                            userReceiverId:
-                                                value.selectedUser!.userId,
-                                            userReceiverName:
-                                                value.selectedUser!.userName,
-                                            userReceiverRegNo:
-                                                value.selectedUser!.userRegNo,
-                                            userReceiverNumber:
-                                                value.selectedUser!.userPhoneNo,
-                                            textMasseg: _messageController.text,
-                                            emojiMessage: "",
-                                            imageMessage: '',
-                                            fileMessage: file.path,
-                                            audioMessage: '',
-                                            location: '',
-                                            contact: '');
+                                          userSenderId: userModel.id,
+                                          userSenderName: userModel.userName,
+                                          userSenderNumber:
+                                              userModel.userPhoneNumber,
+                                          userSenderRegNo: userModel.userRegNo,
+                                          userReceiverId:
+                                              value.selectedUser!.userId,
+                                          userReceiverName:
+                                              value.selectedUser!.userName,
+                                          userReceiverRegNo:
+                                              value.selectedUser!.userRegNo,
+                                          userReceiverNumber:
+                                              value.selectedUser!.userPhoneNo,
+                                          textMasseg: _messageController.text,
+                                          emojiMessage: "",
+                                          imageMessage: '',
+                                          fileMessage: file.path,
+                                          audioMessage: '',
+                                          contact: '',
+                                          location: '',
+                                        );
+
                                         print(chatModel);
                                         await value.sendDocFile(
                                             chatModel, context);
@@ -418,8 +417,35 @@ class _ChatScreenState extends State<ChatScreen> {
                               CircleAvatar(
                                 // backgroundColor: Colors.white,
                                 child: IconButton(
-                                  onPressed: (() {
+                                  onPressed: (() async {
                                     print("Hello");
+                                    AuthUserModel userModel = context
+                                        .read<AuthProvider>()
+                                        .authUserModel!;
+                                    SendChatModel chatModel = SendChatModel(
+                                        userSenderId: userModel.id,
+                                        userSenderName: userModel.userName,
+                                        userSenderNumber:
+                                            userModel.userPhoneNumber,
+                                        userSenderRegNo: userModel.userRegNo,
+                                        userReceiverId:
+                                            value.selectedUser!.userId,
+                                        userReceiverName:
+                                            value.selectedUser!.userName,
+                                        userReceiverRegNo:
+                                            value.selectedUser!.userRegNo,
+                                        userReceiverNumber:
+                                            value.selectedUser!.userPhoneNo,
+                                        textMasseg: _messageController.text,
+                                        emojiMessage: "",
+                                        imageMessage: '',
+                                        fileMessage: '',
+                                        audioMessage: '',
+                                        location: '',
+                                        contact: '');
+                                    print(chatModel);
+                                    await value.sendLocation(
+                                        chatModel, context);
                                     setState(() {
                                       isAttaching = !isAttaching;
                                     });
