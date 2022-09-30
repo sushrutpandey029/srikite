@@ -22,6 +22,8 @@ class ChatModel {
     required this.imageMessage,
     required this.fileMessage,
     required this.audioMessage,
+    required this.location,
+    required this.contact,
   });
 
   String id;
@@ -40,6 +42,8 @@ class ChatModel {
   String audioMessage;
   String imageMessage;
   String fileMessage;
+  String location;
+  String contact;
 
   factory ChatModel.fromMap(Map<String, dynamic> json) => ChatModel(
         id: json["id"] ?? '',
@@ -57,8 +61,10 @@ class ChatModel {
             json["datetime"] ?? DateTime.now().toIso8601String()),
         massageStatus: json["massage_status"] ?? '',
         imageMessage: json["file_msg"] ?? '',
-        fileMessage: json["file_msg"] ?? '',
+        fileMessage: json["documents"] ?? '',
         audioMessage: json["voice_record_msg"] ?? '',
+        location: json['user_location'] ?? '',
+        contact: json['contacts'] ?? '',
       );
 
   Map<String, dynamic> toMap() => {

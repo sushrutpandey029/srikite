@@ -323,7 +323,12 @@ class ChatProvider extends ChangeNotifier {
 
   Future<void> sendAudio(SendChatModel chatModel, BuildContext context) async {
     try {
-      _chatRepo.sendAudio(
+      _messageHiveRepo
+          .addMessages([ChatModel.fromMap(chatModel.toMap())], false);
+      fetchChatUsersLocal(context);
+      fetchChatLocal(chatModel.userSenderId, chatModel.userReceiverId);
+      notifyListeners();
+      await _chatRepo.sendAudio(
           chatModel.userSenderId,
           chatModel.userSenderRegNo,
           chatModel.userSenderNumber,
@@ -333,16 +338,10 @@ class ChatProvider extends ChangeNotifier {
           chatModel.userReceiverNumber,
           chatModel.userReceiverName,
           chatModel.audioMessage);
-      // _messageHiveRepo
-      //     .addMessages([ChatModel.fromMap(chatModel.toMap())], false);
-      // fetchChatUsersLocal(context);
-      // fetchChatLocal(chatModel.userSenderId, chatModel.userReceiverId);
-      // notifyListeners();
-      // await _chatRepo.sendMessage(chatModel);
-      // notifyListeners();
-      // await fetchChatUsers(context);
-      // await fetchChat(context);
-      // notifyListeners();
+      notifyListeners();
+      await fetchChatUsers(context);
+      await fetchChat(context);
+      notifyListeners();
     } on Exception catch (e) {
       print(
         Exception(e),
@@ -352,7 +351,12 @@ class ChatProvider extends ChangeNotifier {
 
   Future<void> sendImage(SendChatModel chatModel, BuildContext context) async {
     try {
-      _chatRepo.sendImage(
+      _messageHiveRepo
+          .addMessages([ChatModel.fromMap(chatModel.toMap())], false);
+      fetchChatUsersLocal(context);
+      fetchChatLocal(chatModel.userSenderId, chatModel.userReceiverId);
+      notifyListeners();
+      await _chatRepo.sendImage(
           chatModel.userSenderId,
           chatModel.userSenderRegNo,
           chatModel.userSenderNumber,
@@ -362,16 +366,71 @@ class ChatProvider extends ChangeNotifier {
           chatModel.userReceiverNumber,
           chatModel.userReceiverName,
           chatModel.imageMessage);
-      // _messageHiveRepo
-      //     .addMessages([ChatModel.fromMap(chatModel.toMap())], false);
-      // fetchChatUsersLocal(context);
-      // fetchChatLocal(chatModel.userSenderId, chatModel.userReceiverId);
-      // notifyListeners();
+      notifyListeners();
+      await fetchChatUsers(context);
+      await fetchChat(context);
+      notifyListeners();
+    } on Exception catch (e) {
+      print(
+        Exception(e),
+      );
+    }
+  }
+
+  Future<void> sendContact(
+      SendChatModel chatModel, BuildContext context) async {
+    try {
+      _messageHiveRepo
+          .addMessages([ChatModel.fromMap(chatModel.toMap())], false);
+      fetchChatUsersLocal(context);
+      fetchChatLocal(chatModel.userSenderId, chatModel.userReceiverId);
+      notifyListeners();
       // await _chatRepo.sendMessage(chatModel);
-      // notifyListeners();
-      // await fetchChatUsers(context);
-      // await fetchChat(context);
-      // notifyListeners();
+      await _chatRepo.sendContact(
+          chatModel.userSenderId,
+          chatModel.userSenderRegNo,
+          chatModel.userSenderNumber,
+          chatModel.userSenderName,
+          chatModel.userReceiverId,
+          chatModel.userReceiverRegNo,
+          chatModel.userReceiverNumber,
+          chatModel.userReceiverName,
+          chatModel.contact);
+      notifyListeners();
+      await fetchChatUsers(context);
+      await fetchChat(context);
+      notifyListeners();
+    } on Exception catch (e) {
+      print(
+        Exception(e),
+      );
+    }
+  }
+
+  Future<void> sendLocation(
+      SendChatModel chatModel, BuildContext context) async {
+    try {
+      _messageHiveRepo
+          .addMessages([ChatModel.fromMap(chatModel.toMap())], false);
+      fetchChatUsersLocal(context);
+      fetchChatLocal(chatModel.userSenderId, chatModel.userReceiverId);
+      notifyListeners();
+      await _chatRepo.sendLocation(
+          chatModel.userSenderId,
+          chatModel.userSenderRegNo,
+          chatModel.userSenderNumber,
+          chatModel.userSenderName,
+          chatModel.userReceiverId,
+          chatModel.userReceiverRegNo,
+          chatModel.userReceiverNumber,
+          chatModel.userReceiverName,
+          chatModel.location);
+      notifyListeners();
+      await fetchChatUsers(context);
+      await fetchChat(context);
+      notifyListeners();
+      await fetchChatUsers(context);
+      await fetchChat(context);
     } on Exception catch (e) {
       print(
         Exception(e),
@@ -382,6 +441,11 @@ class ChatProvider extends ChangeNotifier {
   Future<void> sendDocFile(
       SendChatModel chatModel, BuildContext context) async {
     try {
+      _messageHiveRepo
+          .addMessages([ChatModel.fromMap(chatModel.toMap())], false);
+      fetchChatUsersLocal(context);
+      fetchChatLocal(chatModel.userSenderId, chatModel.userReceiverId);
+      notifyListeners();
       await _chatRepo.sendDoc(
         chatModel.userSenderId,
         chatModel.userSenderRegNo,
@@ -393,16 +457,10 @@ class ChatProvider extends ChangeNotifier {
         chatModel.userReceiverName,
         chatModel.fileMessage,
       );
-      // _messageHiveRepo
-      //     .addMessages([ChatModel.fromMap(chatModel.toMap())], false);
-      // fetchChatUsersLocal(context);
-      // fetchChatLocal(chatModel.userSenderId, chatModel.userReceiverId);
-      // notifyListeners();
-      // await _chatRepo.sendMessage(chatModel);
-      // notifyListeners();
-      // await fetchChatUsers(context);
-      // await fetchChat(context);
-      // notifyListeners();
+      notifyListeners();
+      await fetchChatUsers(context);
+      await fetchChat(context);
+      notifyListeners();
     } on Exception catch (e) {
       print(
         Exception(e),

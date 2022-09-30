@@ -386,7 +386,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 );
               })
           : null,
-      appBar: customAppBar('Profile'),
+      appBar: customAppBar('Profile', backButton: true),
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 8.w, vertical: 5.h),

@@ -5,7 +5,7 @@ import '../../constants/color_gradient.dart';
 import '../../constants/textstyle.dart';
 
 AppBar customAppBar(String title,
-    {bool isHome = false,
+    {bool backButton = false,
     List<IconData>? actionIcons,
     List<VoidCallback>? actionFunctions}) {
   return AppBar(
@@ -13,7 +13,7 @@ AppBar customAppBar(String title,
       title,
       style: heading2,
     ),
-    // automaticallyImplyLeading: false,
+    automaticallyImplyLeading: backButton,
     actions: [
       if (actionIcons != null)
         for (int i = 0; i < actionIcons.length; i++)
@@ -25,7 +25,7 @@ AppBar customAppBar(String title,
                 }
               },
               icon: Icon(actionIcons.elementAt(i))),
-      if (isHome)
+      if (backButton)
         Builder(builder: (context) {
           return IconButton(
               iconSize: 24.sp,

@@ -1,15 +1,10 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
-import 'package:kite/authentication/model/auth_user_model.dart';
-import 'package:kite/authentication/provider/auth_provider.dart';
 import 'package:kite/call/ui/screens/call_page.dart';
 import 'package:kite/chat/provider/chat_provider.dart';
 import 'package:kite/chat/ui/screens/chat_profile_screen.dart';
 import 'package:kite/util/custom_navigation.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:cloud_functions/cloud_functions.dart';
 import '../../../shared/constants/color_gradient.dart';
 import '../../../shared/constants/textstyle.dart';
 

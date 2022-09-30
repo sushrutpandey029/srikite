@@ -1,20 +1,22 @@
+import 'package:contacts_service/contacts_service.dart';
 import 'package:flutter/material.dart';
 import 'package:kite/authentication/model/auth_user_model.dart';
 import 'package:kite/chat/provider/chat_provider.dart';
 import 'package:kite/chat/ui/screens/chat_screen.dart';
 import 'package:kite/contact/provider/contact_provider.dart';
-import 'package:kite/contact/ui/screens/non_reg_contacts.dart';
+import 'package:kite/contact/ui/screens/contacts.dart';
 import 'package:kite/shared/constants/textstyle.dart';
 import 'package:kite/shared/constants/url_constants.dart';
 import 'package:kite/shared/ui/widgets/custom_app_bar.dart';
 import 'package:kite/util/custom_navigation.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:azlistview/azlistview.dart';
 
 class ContactListPage extends StatefulWidget {
-  const ContactListPage({Key? key}) : super(key: key);
+  ContactListPage({Key? key}) : super(key: key);
 
+  List<AuthUserModel> matchedContacts = [];
+  List<Contact> phoneContacts = [];
   @override
   State<ContactListPage> createState() => _ContactListPageState();
 }
@@ -27,6 +29,8 @@ class _ContactListPageState extends State<ContactListPage> {
 
   @override
   Widget build(BuildContext context) {
+    final matchContact = widget.matchedContacts;
+    final phoneContact = widget.phoneContacts;
     return Scaffold(
       appBar: customAppBar('Contacts', actionIcons: [Icons.search]),
       body: SingleChildScrollView(
@@ -42,66 +46,176 @@ class _ContactListPageState extends State<ContactListPage> {
               ),
               child: Column(
                 children: [
-                  Padding(
-                    padding:
-                        EdgeInsets.symmetric(vertical: 2.h, horizontal: 4.w),
-                    child: Row(
-                      children: [
-                        Icon(
-                          Icons.group_add,
-                          size: 24.sp,
-                          color: const Color.fromARGB(255, 55, 78, 191),
-                        ),
-                        SizedBox(
-                          width: 2.h,
-                        ),
-                        Text(
-                          'New group call',
-                          style: text1,
-                        )
-                      ],
+                  Card(
+                    child: Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: Row(
+                        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: const <Widget>[
+                          CircleAvatar(
+                            backgroundColor: Colors.blue,
+                            child: Icon(
+                              Icons.group,
+                              color: Colors.white,
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(left: 44.0),
+                            child: Text("New group"),
+                          )
+                        ],
+                      ),
                     ),
                   ),
-                  Padding(
-                    padding: EdgeInsets.only(bottom: 2.h, left: 4.w),
-                    child: Row(
-                      children: [
-                        Icon(
-                          Icons.person_add,
-                          size: 24.sp,
-                          color: const Color.fromARGB(255, 55, 78, 191),
-                        ),
-                        SizedBox(
-                          width: 2.h,
-                        ),
-                        Text(
-                          'New contact',
-                          style: text1,
-                        ),
-                      ],
+                  Card(
+                    child: Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: Row(
+                        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: const <Widget>[
+                          CircleAvatar(
+                            backgroundColor: Colors.blue,
+                            child: Icon(
+                              Icons.person_add_alt,
+                              color: Colors.white,
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(left: 44.0),
+                            child: Text("New contact"),
+                          )
+                        ],
+                      ),
                     ),
                   ),
-                  Padding(
-                    padding: EdgeInsets.only(bottom: 2.h, left: 4.w),
-                    child: Row(
-                      children: [
-                        IconButton(
-                          onPressed: () =>
-                              customNavigator(context, NonRegContacts()),
-                          icon: Icon(
-                            Icons.add_comment_outlined,
-                            size: 24.sp,
-                            color: const Color.fromARGB(255, 55, 78, 191),
+                  ListView.builder(
+                    physics: const NeverScrollableScrollPhysics(),
+                    scrollDirection: Axis.vertical,
+                    shrinkWrap: true,
+                    itemCount: matchContact.length,
+                    itemBuilder: (context, index) => Card(
+                      elevation: 0,
+                      child: Card(
+                        child: GestureDetector(
+                          onTap: () {
+                            // value.selectUser(index, context);
+                            context.read<ChatProvider>().fetchChat(context);
+                            customNavigator(
+                              context,
+                              ChatScreen(
+                                isGroupChat: false,
+                              ),
+                            );
+                          },
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: <Widget>[
+                              Padding(
+                                padding: const EdgeInsets.only(left: 12.0),
+                                child: CircleAvatar(
+                                  backgroundImage: NetworkImage(
+                                      matchContact[index].userImage),
+                                ),
+                              ),
+                              SizedBox(
+                                width: 180,
+                                child: Padding(
+                                  padding: const EdgeInsets.all(25.0),
+                                  child: Text(
+                                    style: const TextStyle(color: Colors.black),
+                                    matchContact[index].userName,
+                                  ),
+                                ),
+                              ),
+                              const SizedBox(
+                                width: 20,
+                              ),
+                              Row(
+                                children: <Widget>[
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  CircleAvatar(
+                                    backgroundColor: Colors.blue,
+                                    child: IconButton(
+                                      onPressed: () {},
+                                      icon: const Icon(Icons.phone),
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  CircleAvatar(
+                                    backgroundColor: Colors.blue,
+                                    child: IconButton(
+                                      onPressed: () {},
+                                      icon: const Icon(
+                                        Icons.video_call,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ),
-                        SizedBox(
-                          width: 2.h,
+                      ),
+                    ),
+                  ),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => PhoneContacts(
+                            phoneContacts: phoneContact,
+                          ),
                         ),
-                        Text(
-                          'Invite',
-                          style: text1,
+                      );
+                    },
+                    child: Card(
+                      child: Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Row(
+                          // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: const <Widget>[
+                            CircleAvatar(
+                              backgroundColor: Colors.blue,
+                              child: Icon(
+                                Icons.share,
+                                color: Colors.white,
+                              ),
+                            ),
+                            Padding(
+                              padding: EdgeInsets.only(left: 44.0),
+                              child: Text("Invite"),
+                            )
+                          ],
                         ),
-                      ],
+                      ),
+                    ),
+                  ),
+                  Card(
+                    child: Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: Row(
+                        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: const <Widget>[
+                          CircleAvatar(
+                            backgroundColor: Colors.blue,
+                            child: Icon(
+                              Icons.help,
+                              color: Colors.white,
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(left: 44.0),
+                            child: Text("Contact us"),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                   Container(
@@ -205,7 +319,7 @@ class _ContactListPageState extends State<ContactListPage> {
                                       fit: BoxFit.contain,
                                     ),
                                   ))
-                                : CircleAvatar(
+                                : const CircleAvatar(
                                     child: Icon(Icons.person),
                                   ),
                             title: Text(userModel.userName),

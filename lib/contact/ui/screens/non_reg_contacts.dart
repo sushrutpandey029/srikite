@@ -35,7 +35,7 @@ class _NonRegContactsState extends State<NonRegContacts> {
           (a, b) => a.phones!.first.value!.compareTo(b.phones!.first.value!),
         );
         return value.isLoading
-            ? CircularProgressIndicator()
+            ? const CircularProgressIndicator()
             : Column(
                 children: [
                   // AzListView(data: ['wd','asdas'], itemCount: value.finalContacts.length, itemBuilder: ((context, index) {
@@ -105,7 +105,7 @@ class _NonRegContactsState extends State<NonRegContacts> {
                           child: ListTile(
                             // shape: const UnderlineInputBorder(
                             //     borderSide: BorderSide(color: Colors.grey)),
-                            leading: CircleAvatar(
+                            leading: const CircleAvatar(
                               child:
                                   // userModel.userImage != null
                                   //     ? Image.asset(userModel.userImage)

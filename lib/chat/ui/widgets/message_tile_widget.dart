@@ -20,31 +20,25 @@ class MessageTileWidget extends StatelessWidget {
   String type;
 
   Widget showMessage(BuildContext context, String type, String message) {
+    print("Here");
     print(type);
     print(message);
     if (type == "image") {
-      return GestureDetector(
-        onTap: () {
-          Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder: (context) =>
-                      ImageView(imgUrl: '$imgMsgUrl/$message')));
-        },
-        child: ClipRRect(
-          borderRadius: BorderRadius.circular(14.sp),
-          child: Image.network(
-            '$imgMsgUrl/$message',
-            height: 250,
-            width: double.infinity,
-            fit: BoxFit.cover,
-          ),
-        ),
-      );
+      return _displayImage(context, message);
       // return Text("Hello");
     } else if (type == "audio") {
-      return PlayVoiceMsg(audioMsgUrl: "$audioMsgUrl/$message");
+      // return Text(audioMsgUrl);
+      return PlayVoiceMsg(audioMsgUrl: "$audioMsgUrl/$message", time: time);
       // return PlayAudioFromFile(audioMsgUrl: '$audioMsgUrl/$message');
+    } else if (type == "contact") {
+      return Text(
+        'contact - $message',
+        style: const TextStyle(color: Colors.red),
+      );
+    } else if (type == "location") {
+      return Text('Location - $message');
+    } else if (type == "file") {
+      return Text("Document - $message");
     } else {
       int length = message.split("\n").length;
       if (length > 10) {
@@ -62,6 +56,47 @@ class MessageTileWidget extends StatelessWidget {
         return Text(message);
       }
     }
+  }
+
+  GestureDetector _displayImage(BuildContext context, String message) {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          fullImageView(message),
+        );
+      },
+      child: Stack(
+        children: [
+          ClipRRect(
+            borderRadius: BorderRadius.circular(14.sp),
+            child: Image.network(
+              '$imgMsgUrl/$message',
+              height: 250,
+              width: double.infinity,
+              fit: BoxFit.cover,
+            ),
+          ),
+          Positioned(
+            right: 10,
+            bottom: 10,
+            child: Text(
+              time,
+              style: TextStyle(fontSize: 14.sp, color: Colors.white),
+            ),
+          )
+        ],
+      ),
+    );
+  }
+
+  MaterialPageRoute<dynamic> fullImageView(String message) {
+    return MaterialPageRoute(
+      builder: (context) => ImageView(
+        imgUrl: '$imgMsgUrl/$message',
+        isSendImage: true,
+      ),
+    );
   }
 
   @override
@@ -92,7 +127,7 @@ class MessageTileWidget extends StatelessWidget {
                 padding: type == "image"
                     ? const EdgeInsets.all(4)
                     : EdgeInsets.symmetric(horizontal: 4.w, vertical: 1.h),
-                child: type != "image"
+                child: type == "text"
                     ? Row(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [

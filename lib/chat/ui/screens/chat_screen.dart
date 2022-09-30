@@ -1,7 +1,9 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:audio_wave/audio_wave.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter_emoji/flutter_emoji.dart';
+import 'package:fluttercontactpicker/fluttercontactpicker.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:emoji_picker_flutter/emoji_picker_flutter.dart';
 import 'package:flutter/gestures.dart';
@@ -37,7 +39,9 @@ class _ChatScreenState extends State<ChatScreen> {
   final TextEditingController _messageController = TextEditingController();
   final ChatProvider _chatProvider = ChatProvider();
   final ImagePicker _picker = ImagePicker();
-
+  PhoneContact? _phoneContact;
+  String? _contact;
+  Image? _contactPhoto;
   // Signaling signaling = Signaling();
   // RTCVideoRenderer localRenderer = RTCVideoRenderer();
   // RTCVideoRenderer remoteRenderer = RTCVideoRenderer();
@@ -151,13 +155,19 @@ class _ChatScreenState extends State<ChatScreen> {
       return chatMessage.audioMessage;
     } else if (chatMessage.fileMessage != '') {
       return chatMessage.fileMessage;
+    } else if (chatMessage.contact != '') {
+      return chatMessage.contact;
     } else {
       return chatMessage.textMasseg;
     }
   }
 
   String findType(var chatMessage) {
-    if (chatMessage.audioMessage != '') {
+    if (chatMessage.contact != '') {
+      return 'contact';
+    } else if (chatMessage.location != '') {
+      return 'location';
+    } else if (chatMessage.audioMessage != '') {
       return 'audio';
     } else if (chatMessage.imageMessage != '') {
       return 'image';
@@ -231,25 +241,29 @@ class _ChatScreenState extends State<ChatScreen> {
                                           .read<AuthProvider>()
                                           .authUserModel!;
                                       SendChatModel chatModel = SendChatModel(
-                                        userSenderId: userModel.id,
-                                        userSenderName: userModel.userName,
-                                        userSenderNumber:
-                                            userModel.userPhoneNumber,
-                                        userSenderRegNo: userModel.userRegNo,
-                                        userReceiverId:
-                                            value.selectedUser!.userId,
-                                        userReceiverName:
-                                            value.selectedUser!.userName,
-                                        userReceiverRegNo:
-                                            value.selectedUser!.userRegNo,
-                                        userReceiverNumber:
-                                            value.selectedUser!.userPhoneNo,
-                                        textMasseg: _messageController.text,
-                                        emojiMessage: "",
-                                        imageMessage: pickedImage.path,
-                                        fileMessage: '',
-                                        audioMessage: '',
-                                      );
+                                          userSenderId: userModel.id,
+                                          userSenderName: userModel.userName,
+                                          userSenderNumber:
+                                              userModel.userPhoneNumber,
+                                          userSenderRegNo: userModel.userRegNo,
+                                          userReceiverId:
+                                              value.selectedUser!.userId,
+                                          userReceiverName:
+                                              value.selectedUser!.userName,
+                                          userReceiverRegNo:
+                                              value.selectedUser!.userRegNo,
+                                          userReceiverNumber:
+                                              value.selectedUser!.userPhoneNo,
+                                          textMasseg: _messageController.text,
+                                          emojiMessage: "",
+                                          imageMessage: pickedImage.path,
+                                          fileMessage: '',
+                                          audioMessage: '',
+                                          location: '',
+                                          contact: '');
+                                      setState(() {
+                                        isAttaching = !isAttaching;
+                                      });
                                       await _chatProvider.sendImage(
                                           chatModel, context);
                                     }
@@ -268,16 +282,69 @@ class _ChatScreenState extends State<ChatScreen> {
                           ),
                           Column(
                             children: [
-                              CircleAvatar(
-                                // backgroundColor: Colors.white,
-                                child: IconButton(
-                                  onPressed: (() {
-                                    print("Hello");
-                                  }),
-                                  icon: const Icon(Icons.person),
-                                  iconSize: 20,
-                                ),
-                              ),
+                              kIsWeb && !FlutterContactPicker.available
+                                  ? const SizedBox()
+                                  : CircleAvatar(
+                                      // backgroundColor: Colors.white,
+                                      child: IconButton(
+                                        onPressed: () async {
+                                          final PhoneContact contact =
+                                              await FlutterContactPicker
+                                                  .pickPhoneContact();
+                                          print(contact);
+                                          setState(() {
+                                            _phoneContact = contact;
+                                          });
+                                          if (_phoneContact != null) {
+                                            PhoneNumber? phoneNum =
+                                                _phoneContact!.phoneNumber;
+                                            String? contactName =
+                                                _phoneContact!.fullName;
+                                            String? phoneNumber =
+                                                phoneNum!.number;
+                                            print("phoneNumber - $phoneNumber");
+                                            print("contactName - $contactName");
+                                            AuthUserModel userModel = context
+                                                .read<AuthProvider>()
+                                                .authUserModel!;
+                                            SendChatModel chatModel =
+                                                SendChatModel(
+                                                    userSenderId: userModel.id,
+                                                    userSenderName: userModel
+                                                        .userName,
+                                                    userSenderNumber: userModel
+                                                        .userPhoneNumber,
+                                                    userSenderRegNo: userModel
+                                                        .userRegNo,
+                                                    userReceiverId: value
+                                                        .selectedUser!.userId,
+                                                    userReceiverName:
+                                                        value.selectedUser!
+                                                            .userName,
+                                                    userReceiverRegNo:
+                                                        value.selectedUser!
+                                                            .userRegNo,
+                                                    userReceiverNumber: value
+                                                        .selectedUser!
+                                                        .userPhoneNo,
+                                                    textMasseg: '',
+                                                    emojiMessage: "",
+                                                    imageMessage: '',
+                                                    fileMessage: '',
+                                                    audioMessage: '',
+                                                    location: '',
+                                                    contact: phoneNumber!);
+                                            await value.sendContact(
+                                                chatModel, context);
+                                            setState(() {
+                                              isAttaching = !isAttaching;
+                                            });
+                                          }
+                                        },
+                                        icon: const Icon(Icons.person),
+                                        iconSize: 20,
+                                      ),
+                                    ),
                               Container(
                                 margin: EdgeInsets.only(top: 0.5.h),
                                 child: const Text("Contacts"),
@@ -303,33 +370,38 @@ class _ChatScreenState extends State<ChatScreen> {
                                             .read<AuthProvider>()
                                             .authUserModel!;
                                         SendChatModel chatModel = SendChatModel(
-                                          userSenderId: userModel.id,
-                                          userSenderName: userModel.userName,
-                                          userSenderNumber:
-                                              userModel.userPhoneNumber,
-                                          userSenderRegNo: userModel.userRegNo,
-                                          userReceiverId:
-                                              value.selectedUser!.userId,
-                                          userReceiverName:
-                                              value.selectedUser!.userName,
-                                          userReceiverRegNo:
-                                              value.selectedUser!.userRegNo,
-                                          userReceiverNumber:
-                                              value.selectedUser!.userPhoneNo,
-                                          textMasseg: _messageController.text,
-                                          emojiMessage: "",
-                                          imageMessage: '',
-                                          fileMessage: file.path,
-                                          audioMessage: '',
-                                        );
+                                            userSenderId: userModel.id,
+                                            userSenderName: userModel.userName,
+                                            userSenderNumber:
+                                                userModel.userPhoneNumber,
+                                            userSenderRegNo:
+                                                userModel.userRegNo,
+                                            userReceiverId:
+                                                value.selectedUser!.userId,
+                                            userReceiverName:
+                                                value.selectedUser!.userName,
+                                            userReceiverRegNo:
+                                                value.selectedUser!.userRegNo,
+                                            userReceiverNumber:
+                                                value.selectedUser!.userPhoneNo,
+                                            textMasseg: _messageController.text,
+                                            emojiMessage: "",
+                                            imageMessage: '',
+                                            fileMessage: file.path,
+                                            audioMessage: '',
+                                            location: '',
+                                            contact: '');
                                         print(chatModel);
-                                        await _chatProvider.sendDocFile(
+                                        await value.sendDocFile(
                                             chatModel, context);
                                         print("sent file - ${file.path}");
                                       }
                                     } else {
                                       // User canceled the picker
                                     }
+                                    setState(() {
+                                      isAttaching = !isAttaching;
+                                    });
                                   }),
                                   icon: const Icon(Icons.description),
                                   iconSize: 20,
@@ -348,6 +420,9 @@ class _ChatScreenState extends State<ChatScreen> {
                                 child: IconButton(
                                   onPressed: (() {
                                     print("Hello");
+                                    setState(() {
+                                      isAttaching = !isAttaching;
+                                    });
                                   }),
                                   icon: const Icon(Icons.near_me),
                                   iconSize: 20,
@@ -456,6 +531,8 @@ class _ChatScreenState extends State<ChatScreen> {
                                     emojiMessage: "",
                                     imageMessage: '',
                                     fileMessage: '',
+                                    contact: '',
+                                    location: '',
                                     audioMessage: audioFile,
                                   ),
                                   context);
@@ -485,29 +562,26 @@ class _ChatScreenState extends State<ChatScreen> {
                             context.read<AuthProvider>().authUserModel!;
 
                         SendChatModel chatModel = SendChatModel(
-                          userSenderId: userModel.id,
-                          userSenderName: userModel.userName,
-                          userSenderNumber: userModel.userPhoneNumber,
-                          userSenderRegNo: userModel.userRegNo,
-                          userReceiverId: value.selectedUser!.userId,
-                          userReceiverName: value.selectedUser!.userName,
-                          userReceiverRegNo: value.selectedUser!.userRegNo,
-                          userReceiverNumber: value.selectedUser!.userPhoneNo,
-                          textMasseg: _messageController.text,
-                          emojiMessage: "",
-                          imageMessage: '',
-                          fileMessage: '',
-                          audioMessage: '',
-                        );
+                            userSenderId: userModel.id,
+                            userSenderName: userModel.userName,
+                            userSenderNumber: userModel.userPhoneNumber,
+                            userSenderRegNo: userModel.userRegNo,
+                            userReceiverId: value.selectedUser!.userId,
+                            userReceiverName: value.selectedUser!.userName,
+                            userReceiverRegNo: value.selectedUser!.userRegNo,
+                            userReceiverNumber: value.selectedUser!.userPhoneNo,
+                            textMasseg: _messageController.text,
+                            emojiMessage: "",
+                            imageMessage: '',
+                            fileMessage: '',
+                            audioMessage: '',
+                            location: '',
+                            contact: '');
                         print('chatmodel data - {$chatModel}');
                         EmojiParser parser = EmojiParser();
                         bool hasEmoji = parser.hasEmoji(chatModel.textMasseg);
                         print("text has emoji - $hasEmoji");
-                        if (hasEmoji) {
-                          value.sendEmoji(chatModel, context);
-                        } else {
-                          value.sendMessage(chatModel, context);
-                        }
+                        value.sendMessage(chatModel, context);
                         _messageController.clear();
                         FocusScope.of(context).unfocus();
                       },
@@ -533,6 +607,7 @@ class _ChatScreenState extends State<ChatScreen> {
         onEmojiSelected: (category, emoji) {
           setState(() {
             _messageController.text += emoji.emoji;
+            print(emoji);
           });
         },
       ),

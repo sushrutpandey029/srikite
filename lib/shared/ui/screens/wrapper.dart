@@ -46,7 +46,7 @@ class _WrapperState extends State<Wrapper> {
       endDrawer: SizedBox(height: 85.h, child: const AppDrawer()),
       appBar: customAppBar(
         'KITE',
-        isHome: true,
+        backButton: true,
         actionIcons: [Icons.search],
       ),
       body: context.watch<ChatProvider>().isLoading
@@ -62,7 +62,7 @@ class _WrapperState extends State<Wrapper> {
             child: FloatingActionButton(
               elevation: 10,
               onPressed: () {
-                customNavigator(context, const ContactListPage());
+                customNavigator(context, ContactListPage());
               },
               child: Icon(
                 Icons.add,
