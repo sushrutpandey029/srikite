@@ -171,7 +171,7 @@ class ChatRepo {
         'user_receiver_reg_no': userSenderRegNo,
         'user_receiver_number': userReceiverNumber,
         'user_receiver_name': userReceiverName,
-        'audio': await MultipartFile.fromFile(audio, filename: audioName)
+        'location': await MultipartFile.fromFile(audio, filename: audioName)
       });
       Response response = await Dio().post(url,
           data: formData,

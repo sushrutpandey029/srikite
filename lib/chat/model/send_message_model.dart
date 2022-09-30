@@ -57,7 +57,7 @@ class SendChatModel {
         emojiMessage: json["mems"],
         imageMessage: json["file_msg"],
         audioMessage: json["voice_record_msg"],
-        fileMessage: json["documents"],
+        fileMessage: json["file_msg"],
         location: json["user_location"],
         contact: json["contacts"],
       );

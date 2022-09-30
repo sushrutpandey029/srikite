@@ -78,6 +78,7 @@ dependencies:
   path_provider: ^2.0.11
   place_picker: ^0.9.19
   fluttercontactpicker: ^4.7.0
+  flutter_google_places: ^0.3.0
 
 dev_dependencies:
   flutter_test:

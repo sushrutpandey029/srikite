@@ -385,17 +385,17 @@ class ChatProvider extends ChangeNotifier {
       fetchChatUsersLocal(context);
       fetchChatLocal(chatModel.userSenderId, chatModel.userReceiverId);
       notifyListeners();
-      // await _chatRepo.sendMessage(chatModel);
-      await _chatRepo.sendContact(
-          chatModel.userSenderId,
-          chatModel.userSenderRegNo,
-          chatModel.userSenderNumber,
-          chatModel.userSenderName,
-          chatModel.userReceiverId,
-          chatModel.userReceiverRegNo,
-          chatModel.userReceiverNumber,
-          chatModel.userReceiverName,
-          chatModel.contact);
+      await _chatRepo.sendMessage(chatModel);
+      // await _chatRepo.sendContact(
+      //     chatModel.userSenderId,
+      //     chatModel.userSenderRegNo,
+      //     chatModel.userSenderNumber,
+      //     chatModel.userSenderName,
+      //     chatModel.userReceiverId,
+      //     chatModel.userReceiverRegNo,
+      //     chatModel.userReceiverNumber,
+      //     chatModel.userReceiverName,
+      //     chatModel.contact);
       notifyListeners();
       await fetchChatUsers(context);
       await fetchChat(context);
@@ -446,7 +446,7 @@ class ChatProvider extends ChangeNotifier {
       fetchChatUsersLocal(context);
       fetchChatLocal(chatModel.userSenderId, chatModel.userReceiverId);
       notifyListeners();
-      await _chatRepo.sendDoc(
+      await _chatRepo.sendImage(
         chatModel.userSenderId,
         chatModel.userSenderRegNo,
         chatModel.userSenderNumber,
