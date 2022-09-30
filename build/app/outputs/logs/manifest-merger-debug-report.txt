@@ -125,6 +125,8 @@ MERGED from [:awesome_notifications] /home/falcon_codes/prathamesh/app_dev/flutt
 MERGED from [:url_launcher_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
 MERGED from [:webview_flutter_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:permission_handler_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:google_api_headers] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/google_api_headers/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:package_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/package_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:device_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:emoji_picker_flutter] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/emoji_picker_flutter/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:audio_session] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/audio_session/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -399,6 +401,10 @@ MERGED from [:webview_flutter_android] /home/falcon_codes/prathamesh/app_dev/flu
 MERGED from [:webview_flutter_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:permission_handler_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:permission_handler_android] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_api_headers] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/google_api_headers/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_api_headers] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/google_api_headers/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/package_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/package_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:device_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:device_info_plus] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:emoji_picker_flutter] /home/falcon_codes/prathamesh/app_dev/flutter_projects/ig-intern/srikite/build/emoji_picker_flutter/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
